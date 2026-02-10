@@ -1,0 +1,1246 @@
+{
+  "source_file": "14. Андреева_Отдел продукта_группа стран Ближний Восток.xlsx",
+  "level": "L2",
+  "respondent": {
+    "fio": "Андреева Оксана Александровна",
+    "department": "Департамент по управлению операционными доходами",
+    "division": "Отдел продукта (Ближний Восток)",
+    "position": "Руководитель группы стран \"Ближний Восток\"",
+    "division_size": "3"
+  },
+  "division_goals": [
+    "Максимизация прибыльности продукта по Ближнему Востоку (рост прибыли, маржинальности и выручки)"
+  ],
+  "division_tasks": [
+    {
+      "task_name": "Формирование плана действий (бюджет и дорожная карта) на год, квартал, месяц",
+      "task_processes": [
+        {
+          "process_name": "Сбор данных за предыдущий период и анализ для дальнейшего формирования плана действий",
+          "process_description": "Сбор данных : итоги прошлого года, анализ текущих показателей, спрос, изменения на рынке.",
+          "process_trigger": "Цели собственника, озвученные на стратегической сессии",
+          "process_result": "Получение всех необходимых данных (цифр)",
+          "process_systems": [
+            "САМО тур",
+            "специальная форма excel"
+          ],
+          "process_steps_count": "2 этапа",
+          "process_steps": [
+            {
+              "step_description": "1.Выгружаю статистику, фильтрую. На каждый месяц смотрим: человек, заявок,оборот, маржинальность, прибыль. Сравниваю с показателями по прошлому году.",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            }
+          ]
+        },
+        {
+          "process_name": "Формирование бюджета",
+          "process_steps": [
+            {
+              "step_description": "2. Ставлю собрание для региональных офисов для обсуждения планов.",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток»Региональные офисы",
+              "step_department_roles": "Опрашиваются региональные офисы",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3.Ставлю задачу в Битрикс для них, чтобы они поделились своими цифрами и планами отдельно",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток», Региональные офисы",
+              "step_department_roles": "Фиксируется мнение региональных офисов",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4.Анализирую показатели из регионов и свои",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Фомируется бюджет на месяц, год",
+          "process_description": "Фомируется бюджет на месяц, год",
+          "process_trigger": "Необходимость в конкретных цифрах, к чему стремится и что все понимают цели",
+          "process_result": "Формирование бюджета  на год (годовой бюджет) и достижение плана ежемесячно.",
+          "process_systems": [
+            "САМО тур",
+            "специальная форма excel"
+          ],
+          "process_steps_count": "4 этапа",
+          "process_steps": [
+            {
+              "step_description": "1. Собранные данные заносим в специальную форму excel (форма от фин.отдела с формулами)",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "2. Отправляем на согласование руководителю.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Получаем ответ по почте о согласовании или коррекции.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Коррекция, и этап начинается заново.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Формирование дорожной карты",
+          "process_description": "Формирование дорожной карты",
+          "process_trigger": "Необходимость плана основных действий для достижения",
+          "process_result": "Формирование дорожной карты",
+          "process_systems": [
+            "САМО тур",
+            "специальная форма excel"
+          ],
+          "process_steps_count": "1 этап",
+          "process_steps": [
+            {
+              "step_description": "1. Формирую поэтапный план в дорожную карту из полученных данных",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Формирование туристического продукта",
+      "task_processes": [
+        {
+          "process_name": "Сбор информации",
+          "process_description": "Изучаю информацию с целью нахождения нового выгодного продукта",
+          "process_trigger": "Необходимость увеличения прибыли компании за счет выведения нового продукта",
+          "process_result": "Сравнительная табличка",
+          "process_systems": [
+            "Сайты конкурентов",
+            "Excel",
+            "наш сайт"
+          ],
+          "process_steps_count": "2 этапа",
+          "process_steps": [
+            {
+              "step_description": "1.Изучаю информацию на сайтах конкурентов (Russian Express, Paks, Art Tour, Anex, Fun Sun, PAC)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2.Изучаю особенности направления (google, вебинары, ATOP, Profi Travel, сайты отелей, авиакомпаний)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Поиск поставщиков",
+          "process_description": "Изучение поставщиков услуг",
+          "process_trigger": "Необходимость вывести новый выгодный продукт",
+          "process_result": "Получение контракта с поставщиком",
+          "process_systems": [
+            "телефон",
+            "Excel",
+            "почта",
+            "интернет"
+          ],
+          "process_steps_count": "5 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Звоню конкурентам (подругам), уточняю о поставщике (его порядочность, качество и т.д.)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Изучаю отзывы в интернете (google)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Подготовка аналитической справки на согласование руководителю",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Согласование на вывод продукта с руководителем",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Если нужны доп. данные, собираю",
+              "step_delays": "",
+              "step_errors": "",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            }
+          ]
+        },
+        {
+          "process_name": "Подготовка к сотрудничеству",
+          "process_description": "Запрашиваю основные документы и файлы для сотрудничества у поставщиков",
+          "process_trigger": "Необходимость вывести новый выгодный продукт и обезопасить компанию в случае юридических вопросов",
+          "process_result": "Получение цен и контрактов",
+          "process_systems": [
+            "почта",
+            "телефон"
+          ],
+          "process_steps_count": "18 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Запрашиваю контракт и цены у поставщиков (DMC)",
+              "step_delays": "иногда",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Получаю контракты и цены",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Изучаю контракты и цены",
+              "step_delays": "",
+              "step_errors": "",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "4. Анализирую цены относительно конкурентноспособности",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Готовлю финальную информацию в электронном письме и отправляю руководителю",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "6. Согласование с руководителем поставщика, ассортиментного плана (бриф)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4.Заполняю договор",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "5.Отправляю договор юристу",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»+ юридичесакий отдел",
+              "step_department_roles": "Мы заполняем реквизиты, юрист проверяет договор",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "6.Получаю  или нет правки от юриста",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "7.Согласовываю правки с поставщиком",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "8.Пересылаем обратно юристу (процесс может повторяться и задерживаться)",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток»+ юридичесакий отдел",
+              "step_department_roles": "по многу раз может идти согласование, хорошо бы этим занимался юридический отдел",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "9.Если одобрено, отправляю секретарю на почту для подписания и регистрации договор",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "10.Получаю от секретаря подписанный договор",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "11.Отправляю договор поставщику.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "12. Запрашиваю цены и условия на авиабилеты у авиа-отдела (если это GDS туры)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»+ Транспортный отдел",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "13. Запрашиваю цены и условия у авиакомпании (если хотим блочные места)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "14. Согласовываем с руководителем условия по блочным местам.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "15. Запрашиваем договор по блокам у авиакомпании",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "16. Получаем и изучаем договор совместно с руководителем чартерного отдела.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»+ Чартерная группа",
+              "step_department_roles": "совместно изучаем, чтобы было единое мнение",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "17. Подписание договора (руководитель чартерного)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»+ Чартерная группа",
+              "step_department_roles": "руководитель чартрерного отдела инициирует подписание договора",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "18. Запрашиваю контент у поставщиков",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Вывод продукта в продажу",
+          "process_description": "Постановка задач исходя из полученных данных",
+          "process_trigger": "Необходимость транслировать наши цены внешнему миру для получения заявок",
+          "process_result": "Появление нового тура на сайте",
+          "process_systems": [
+            "Битрикс",
+            "почта"
+          ],
+          "process_steps_count": "7 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Ставлю задачу тарификаторам на формирование туристических пакетов",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток» + группа Тарификации",
+              "step_department_roles": "мы отправляем, они считают",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Контролирую исполнение по указанным срокам",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. После вывода продукта проверяю корректность исполнения одной даты и сожержание тура",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Даю задачу продуктологу проверить новый тур на корректность на несколько месяцев точечно и конкурентность продукта",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Если есть ошибки или необходима коррекция, в задаче пишем корректировки",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "6. Даю команду продуктологам на оформление контентной части продукта , они ставят необходимые задачи в контент по срокам",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "7. Проверяю общую готовность продукта (цена, корректность отображения, контент)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Поддержание жизнедеятельности продукта",
+          "process_description": "Контроль продаж и рентабельности",
+          "process_trigger": "Необходимость получения верной и оперативной информации о рентабельности продукта",
+          "process_result": "верные цены",
+          "process_systems": [
+            "Почта",
+            "Битрикс",
+            "САМО тур"
+          ],
+          "process_steps_count": "8 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Даю команду продуктологам проверить новый продукт на агрегаторах (это касается не только новых туров, это ежедневная работа по мониторингу цен всех направлений)* Тут желательно автоматизировать процесс или совершенствовать парсинг цен конкурентов",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "*большое кол-во продукта надо перелопатить",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "2. Если на агрегаторах нет, ставлю задачу в IT для коррекции",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Если на агрегаторах есть, даю команду проверить конкурентность с другими ТО",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Анализирую информацию и даю соответствующие указания продуктологам или чартерному отделу  (повысить, понизить, за счет чего)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Смотрю заявки на корректность",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "6. Если поступает информация от операционного отдела, что-то село не корректно, даю продуктологам команду проверить и поправить.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "7. Делаю ревизию продуктаежемесячно и  в конце сезона. При плохих показателях ставлю задачу тариикаторам убрать тур.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "8.Если продукт стратегический или рентабельный, включаю его в OKR на будущий год.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Продвижение продукта",
+          "process_description": "Продвижение продукта",
+          "process_trigger": "Необходимость, чтобы о продукте узнали заказчики",
+          "process_result": "Достаточное кол-во заявок для выполнения поставленного плана",
+          "process_systems": [
+            "Битрикс",
+            "zoom",
+            "почта",
+            "google"
+          ],
+          "process_steps_count": "19 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Если цены конкурентны, ставлю задачу на продвижение (рекламной кампании) продукта по шаблону для всех причастных отделов* плохая реакция, постоянно приходится контролировать все отделы, пушить, направлять, самой придумывать акции",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток»+Отдел Контент-маркетинга + Отдел рекламы + группа по привлечению новых клиентов",
+              "step_department_roles": "*тут очень низкая реакция рекламы и группы по привлечению",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "2. Даю команду продуктологам на оповещение операционного отдела о продукте (Битрикс чат по Ближнему Востоку, Битрикс Лента)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3.Ставлю встречу на проведение обучения для сотрудников",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Провожу (или мои подчиненные) обучение сотрудников.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5.Даю команду о донесение информации о продукте сотрудникам всеми возможными инструментами: внутренние чаты, заполнение таблички с приоритетами, приходим рассказываем и т.д. *тут есть проблема, что многие не пользуются чатами, не смотрят вебинары",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток» + Отдел Продаж +ВИП отдел",
+              "step_department_roles": "*Не изучают информацию",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "6. Пишу или делаю встречу с отельером или мин. по туризму страны или принимающей компании с просьбой организации вебинара/семинара. Параллельно обговариваем спец.условия для Space (инсентивы, плюшки для клиентов, снижение тарифов)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "7. Ставлю задачу в контент на вебинар",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "8. Ставлю задачу в контент на подготовку презентации (даю всю информацию о чем рассказываю)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "9. Провожу (или мои подчиненные) вебинар.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "10. Ставлю собрание региональным офисам совместно с центральным об обсуждении планов на рекламные туры на сезон",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "10. Запрашиваю рекламные туры по почте в DMC",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "11. Запрашиваю рекламные туры по почте в авиа-отдел или напрямую в авиакомпанию с копией авиа-отдела",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "12. Получаю ответ",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "14. Анализирую конкурентность цены (смотрю конкурентов и тур-платформы, где публикуются рекламные туры (Profi, AТОР, Турдом)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "15.Ставлю задачу региональным офисам с ценами и готовыми датами, они подтверждают, что согласны (или корректируют даты, тогда запрашиваем по схеме выше)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "16. Ставлю задачу тарификаторам на расчет рекламных туров с полученными данными",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "17. Ставлю задачу на набор рекламных туров",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "18. Даю команду продуктологам подготовить необходимые таблички (у нас есть в google таблицы для заполнения одновременно для всех организаторов тура DMC, агентский отдел, продуктологи), где заполняются все данные о рекламном туре, программа",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "19. Контролирую готовность рекламного тура, постоянная переписка с DMC и агентским отделом",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Нетворкинг",
+          "process_description": "Управление отношениями с ключевыми партнерами",
+          "process_trigger": "Необходимость оперативного решения задач, проблем, внештатных ситуаций",
+          "process_result": "Быстрое решение проблем и любых вопросов с поставщиком",
+          "process_systems": [
+            "Телефон",
+            "почта",
+            "Yandex360",
+            "zoom"
+          ],
+          "process_steps_count": "10 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Согласовываю встречи с партнером (отельер, мин по туризму, DMC, авиакомпания)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Ставлю в календарь Битрикс и там же прошу секретарей о пропуске",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Оповещаю партнера по почте",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Провожу встречу",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. После встречи пишу письмо (фиксируем договоренности)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "6. Веду переписку для организации задач далее",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "7. Посещение выставок (например, MITT, OTDYKH, Pure Luxury, ATM Dubai, LTM)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "8. Посещение Бизнес-завтраков, Бизнес-Ужинов",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "10. Личное общение с отельерами, DMC, авиакомпаниями, агентами для поддержания контакта",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Улучшение качества продукта",
+          "process_description": "Системная работа с ключевыми поставщиками по контролю за соблюдением согласованного уровня сервиса.",
+          "process_trigger": "Необходимость поддержания качества услуг для повторного обращения заказчиков для получения прибыли",
+          "process_result": "Постоянные клиенты",
+          "process_systems": [
+            "Битрикс",
+            "телефон",
+            "почта"
+          ],
+          "process_steps_count": "5 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Ставлю собрание со смежными отделами",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток» + Операционный департамент + Отдел Клиентской поддержки+ Отдел круглосуточной поддержки клиентов",
+              "step_department_roles": "обсуждаем проблемы",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Собираю обратную связь по повторяющимся проблемам",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток» + Операционный департамент + Отдел Клиентской поддержки+ Отдел круглосуточной поддержки клиентов",
+              "step_department_roles": "обсуждаем проблемы",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Пишу письмо или звоню поставщику с просьбой наладить процесс",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Получаю ответ",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Контролирую, чтобы не повторялось или снизилось число обращений, если нет, то процесс повторяется",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Оперативное управление инцидентами и нештатными ситуациями для минимизации ущерба для туриста и комп",
+          "process_description": "Оперативное управление инцидентами и нештатными ситуациями для минимизации ущерба для туриста и компании.",
+          "process_trigger": "Претензионные обращения",
+          "process_result": "Положительное решение претензии",
+          "process_systems": [
+            "Битрикс",
+            "телефон",
+            "почта"
+          ],
+          "process_steps_count": "7 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Собираю подробную информацию о случившемся",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток» + Операционный департамент (смотря в каком отделе проблема)",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Анализирую возможности и с кем можно решить",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Связываюсь по месенджеру или звоню",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Передаю инструкции обративщимуся отделу",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Если не могу решить сама, обращаюсь к руководителю и получаю инствукции от него",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "6. Дорабатываю по инструкции от руководителя",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "7. Контролирую исполнение",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Контроль за актуальностью GDS Тарифов",
+          "process_description": "Контроль за актуальностью GDS Тарифов",
+          "process_trigger": "Ошибки в тарифах",
+          "process_result": "Сокращение ошибок",
+          "process_systems": [
+            "Битрикс",
+            "телефон",
+            "почта"
+          ],
+          "process_steps_count": "5 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Запрашиваю стоимость ТО тарифа у авиа-отдела (для туров GDS)",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Группа стран «Ближний Восток» + Транспортный отдел",
+              "step_department_roles": "Транспортный отдел часто задерживает ответ на запрос по расписанию или дает не полные данные или расписание присылает в нечитаемом варианте",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Проверяю на сайте актуальность тарифа от авиакомпании",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Если тариф выше, пишу письмо в IT, чтобы проверили в чем проблема",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток» + Департамент по информационным технологиям",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Пишу письмо руководителю авиа -отдела с просьбой решить технический вопрос с авиакомпанией, если дело в коннекте",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток» + Транспортный отдел",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Контроль решения задачи",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Обеспечение технической исправности работы систем динамического образования и агрегаторов",
+          "process_description": "Обеспечение технической исправности работы систем динамического образования и агрегаторов",
+          "process_trigger": "Ошибки в выдаче цен",
+          "process_result": "Корректное присутствие цен на внешних платформах",
+          "process_systems": [
+            "Битрикс",
+            "телефон",
+            "почта"
+          ],
+          "process_steps_count": "5 этапов",
+          "process_steps": [
+            {
+              "step_description": "1.Ежедневное задание для продуктологов : проверять как работает динамика от партнеров и агрегаторы",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2.При обнаружении неполадок, ставлю задачу в IT с указанием на чьей стороне проблема",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Контролирую решение",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Если быстро не решается, оповещаю руководителя и операционный отдел",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток» +Операционный департамент",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. При необходимости, ставлю встречу с поставщиком на предмет решения проблемы",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "6. Даю необходимые инструкции заинтересованным отделам : IT, операционный",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток» + Операционный департамент + Департамент по информационным технологиям",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Статистика и отчетность",
+          "process_description": "Ведение статистики по странам, отелям, регионам",
+          "process_trigger": "Запрос от партнера",
+          "process_result": "Готовлю отчет",
+          "process_systems": [
+            "Битрикс",
+            "телефон",
+            "почта",
+            "Excel"
+          ],
+          "process_steps_count": "8 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Получаю запрос  от инициатора (отель, мин. по туризму, руководитель) и изучаю запрос",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Анализирую раннее предоставленные данные",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Ставлю задачу руководителю тарификации на выведение нужных мне данных из системы (доступ к ней есть только у нее и информация строго конфединциальна)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Изучаю предоставленные мне данные",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Готовлю краткую статистику руководителю",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "6. Отправляю на согасование данные по почте или ватс ап",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "7. При подтверждении, отправляю письмо - ответ инициатору",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "8. Если не согласовано, дорабатываю и процесс начинается заново с пункта 4",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Ведение различных отчетностей текущих показателей",
+          "process_description": "Ведение различных отчетностей текущих показателей",
+          "process_trigger": "Запрос руководителя",
+          "process_result": "Готовлю отчет",
+          "process_systems": [
+            "Битрикс",
+            "телефон",
+            "почта",
+            "Excel"
+          ],
+          "process_steps_count": "5 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Получаю запрос от руководителя и изучаю запрос",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Готовлю отчет при помощи САМО тур",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Отправляю отчет на почту руководителю",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. При необходимости, отправляю правки",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Если отчет делаеют мои подчиненные, то контролирую, вношу правки или дополнения при необходимости",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Внутренняя коммуникация с коллегами",
+          "process_description": "Участие в различных многочисленных собраниях, иногда по 3-4 собрания в день",
+          "process_trigger": "Новые задачи от руководства, изменение стратегии, проблемы в компании",
+          "process_result": "Решение поставленных задач",
+          "process_systems": [
+            "Битрикс",
+            "телефон",
+            "почта",
+            "Excel"
+          ],
+          "process_steps_count": "6 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Если я инициатор, ставлю встречу в календарь и приглашаю заинтересованные отделы",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Бронирую переговорку",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Ставлю ссылку на yandex360",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Прихожу на собрание (обычно 1 час)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Фиксирую полученные данные",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "6. Ставлю задачи, исходя из необходимости",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Группа стран «Ближний Восток»",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,745 @@
+{
+  "source_file": "16. Писцова_Отдел продукта_группа стран_FIT.xlsx",
+  "level": "L2",
+  "respondent": {
+    "fio": "Писцова Елена Михайловна",
+    "department": "Департамент по управлению операционными доходами",
+    "division": "Отдел продукта (FIT)",
+    "position": "Руководитель группы стран  FIT",
+    "division_size": "2"
+  },
+  "division_goals": [
+    "Выполнение, а в идеале перевыполнение, финансовых показателей (прибыль, маржинальность, оборот), сформированных в бюджете компании, по направлениям, входящим в продуктовую линейку отдела."
+  ],
+  "division_tasks": [
+    {
+      "task_name": "Планирование",
+      "task_processes": [
+        {
+          "process_name": "Анализ рынка и спроса",
+          "process_description": "Оценить емкость рынка и тенденции по тому или иному направлению для понимания перспектив развития. Оценка прошедшего сезона.",
+          "process_trigger": "Необходимость оцифровать данные по рынку и нашим результатам для принятия решения по дальнейшим шагам",
+          "process_result": "конкретные цифры - показатели, на основе которых можно принимать решение, а также выводы, сделанные из них",
+          "process_systems": [
+            "Само",
+            "Битрикс",
+            "почтовый сервис"
+          ],
+          "process_databases": [
+            "Само",
+            "сайты конкурентов"
+          ],
+          "process_steps_count": "7",
+          "process_steps": [
+            {
+              "step_description": "1. Анализ информации на сайтах конкурентов ТО: их продукт и ценовое предложение: Coral, Anex, Пегас, Библио, Русский экспресс, Пакс, Fun Sun, Амботис (могут варьироваться в зависимости от направления)",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "да, парсинг цен"
+            },
+            {
+              "step_description": "2. Изучение отраслевых источников и публикаций (Атор, Телеграм каналы, офисы по туризму, иностранные туристические порталы)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "3. Запрос в DMC о результатах сезона, статистики аэропорта, слухах и планах конкурентов",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "4. Посещение отраслевых выставок и воркшопов",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "5. Запрос в авиаотдел и самостоятельный поиск (сайты авиакомпаний, агрегаторы Сити, Мой агент, аэропорты городов вылета и прилета) возможностей перевозки на направлении",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "транспортный отдел, чартерная группа",
+              "step_department_roles": "делают запрос в авиакомпании и выгражают расписание по регулярным рейсам",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "6. Анализ финансовых показателей за прошедший сезон на основе внутренней статистики",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "финансовый отдел",
+              "step_department_roles": "предоставляет отчет по фин показателям",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "7.  Выгрузка самостоятельно статистики из Само: отельная статистика, статистика по поставщику, по аннуляциям, по глубине продаж, среднее кол-во человек в заявке, регионы, наземка/ с аб",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нужна автоматизация, либо аналитик в отделе продукта"
+            }
+          ]
+        },
+        {
+          "process_name": "Стратегическая сессия",
+          "process_description": "брейн сторм в рамках всех отделов",
+          "process_trigger": "Артур Сиракович",
+          "process_result": "стратегия компании, выявление узких мест и точек роста",
+          "process_databases": "Само",
+          "process_steps_count": "2",
+          "process_steps": [
+            {
+              "step_description": "1. Подготовка к стратегической сессии: запрос отчетов и самостоятельная выгрузка ряда данных из Само",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "финансовый отдел",
+              "step_department_roles": "предоставляет отчет по фин показателям",
+              "step_needs_automation": "нужна автоматизация, либо аналитик в отделе продукта"
+            },
+            {
+              "step_description": "2. Участие в стратегической сессии",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            }
+          ]
+        },
+        {
+          "process_name": "Формирование продуктового плана",
+          "process_description": "Составление видения и плана  по продукту на сезон: страны, города вылета и прилета, типы туров, тип перевозки: блок или регулярка, видение по партнерам",
+          "process_trigger": "стратегическая сессия, результаты анализа рынка",
+          "process_result": "готовый план",
+          "process_systems": [
+            "Само",
+            "Битрикс",
+            "почтовый сервис"
+          ],
+          "process_databases": "Само",
+          "process_steps_count": "2",
+          "process_steps": [
+            {
+              "step_description": "1. На основании полученных аналитических данных и по результатам страт сессии составление продуктового плана и предложение по продуктовой стратегии для ЗГД: расширение/сокращение, выведение нового продукта, акценты по продукту",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "2. Утверждение продуктового плана у ЗГД",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            }
+          ]
+        },
+        {
+          "process_name": "Составление бюджета",
+          "process_description": "расчет основных финансовых показателей по направлениям для последующего планирования финансовым отделом общего плана по компании для московского офиса и региональных подразделений",
+          "process_trigger": "стратегическая сессия, задача от финансового департамента",
+          "process_result": "согласованный бюджет",
+          "process_systems": [
+            "Само",
+            "Битрикс",
+            "почтовый сервис"
+          ],
+          "process_databases": "Само",
+          "process_steps_count": "3",
+          "process_steps": [
+            {
+              "step_description": "1.  На основании полученных аналитических данных и продуктовой стратегии формирование основных  финансовых показателей по группе стран отдела: маржа, прибыль, оборот, кол-во заявок",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "финансовый отдел",
+              "step_department_roles": "предоставляет отчет по фин показателям",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "2. Утверждение бюджета у ЗГД",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "3. Корректировка бюджета",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "финансовый отдел",
+              "step_department_roles": "вносит корректировки на основании своего видения и аналитических данных",
+              "step_needs_automation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Разработка продукта",
+      "task_processes": [
+        {
+          "process_name": "Выбор поставщика наземных услуг",
+          "process_description": "поиск качественного поставщика услуг с конкурентными условиями",
+          "process_trigger": "проблемы с текущими поставщиком, вывод нового направления/продукта",
+          "process_result": "заключенный договор с поставщиком",
+          "process_systems": [
+            "почтовый сервис",
+            "Само",
+            "Битрикс"
+          ],
+          "process_databases": "открытые источники",
+          "process_steps_count": "8",
+          "process_steps": [
+            {
+              "step_description": "1. Поиск поставщиков наземных сервисов: выставки, отраслевые сайты, рекомендации офисов по туризму, сайты конкурентов",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "2. Анализ поставщиков и предоставляемых условий, выявление сильных и слабых сторон: условия сотрудничества, проверка цен после доступа к B2B, репутация на рынке, наличие интеграции",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "3. Запрос договора у поставщика",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "4. Запрос технических параметров по интеграции и передача в IT отдел для оценки тех возможности и стоимости интеграции",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "IT",
+              "step_department_roles": "техническая оценка и настройка",
+              "step_needs_automation": "слабый процесс проверки настроенных интеграций"
+            },
+            {
+              "step_description": "5. Передача договора на корректировку юристу",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "юрист",
+              "step_department_roles": "процесс согласования договора",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "6. Согласование параметров, условий и формы договора с поставщиком на основании внесенных правок",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "7. Заполнение брифа по поставщику и внесение предложений по утверждению поставщика на рассмотрение ЗГД",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "8. Заполнение договора и передача офис менеджеру для подписания и документаоборота",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "административно -хозяйственный отдел",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            }
+          ]
+        },
+        {
+          "process_name": "Выбор поставщика транспортных услуг",
+          "process_description": "процесс определения стратегии по перевозке на том или ином направлении",
+          "process_trigger": "дефицит перевозки, новые авиакомпании на рынке",
+          "process_result": "подписанный блок, группа",
+          "process_systems": [
+            "почтовый сервис",
+            "Само",
+            "Битрикс"
+          ],
+          "process_databases": "открытые источники",
+          "process_steps_count": "6",
+          "process_steps": [
+            {
+              "step_description": "1. Запрос авиаотделу по маршрутной сетке, тарифам, расписанию на направлении",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "транспортный отдел",
+              "step_department_roles": "делают запрос в авиакомпании и выгражают расписание по регулярным рейсам",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "2. Запрос на предоставление  ТО и IT тарифов",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "транспортный отдел",
+              "step_department_roles": "делают запрос в авиакомпании",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "3. Запрос на предоставление групп",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "транспортный отдел",
+              "step_department_roles": "делают запрос в авиакомпании",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "4. Запрос на предоставление блоков/чартера",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "транспортный отдел, чартерная группа",
+              "step_department_roles": "делают запрос в авиакомпании, получают условия, договор",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "5. Сравнение полученных тарифов с тарифами конкурентов на сайтах конкурентов и сайтах авиакомпаний и агрегаторов",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "6. При наличии жестких договорных и финансовых обязательств передача на утверждение ЗГД",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            }
+          ]
+        },
+        {
+          "process_name": "Вывод продукта",
+          "process_description": "запуск процесса публикации туров в онлайне",
+          "process_trigger": "финализированное предложение от поставщиков, утверждение от ЗГД",
+          "process_result": "туры в онлайне",
+          "process_systems": [
+            "Само",
+            "Битрикс"
+          ],
+          "process_databases": [
+            "Само",
+            "Битрикс"
+          ],
+          "process_steps_count": "2",
+          "process_steps": [
+            {
+              "step_description": "1. Постановка задачи в Битрикс IT отделу на подключение интеграций.",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "IT",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "2. Постановка задачи в Битрикс отделу тарифов на формирование турпакетов с указанием всех вводных параметров ценообразования",
+              "step_delays": "нет",
+              "step_errors": "крайне редко",
+              "step_involved_departments": "группа тарифов",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Поддержание жизненного цикла продукта",
+      "task_processes": [
+        {
+          "process_name": "Первичный анализ выведенного продукта",
+          "process_description": "проверка свежевыведенного продукта: отображение на сайте, агрегаторах, наполнение",
+          "process_trigger": "закрытая задача отдела тарифов о выводе тура",
+          "process_result": "\"работающие\" туры на сайте и агрегаторах",
+          "process_systems": [
+            "Само",
+            "Битрикс",
+            "почтовый сервис"
+          ],
+          "process_databases": [
+            "Само",
+            "Битрикс",
+            "сайты конкурентов и агрегаторы"
+          ],
+          "process_steps_count": "5",
+          "process_steps": [
+            {
+              "step_description": "1. Проверка отображения продукта на сайте компании:выходят цены или нет, подгружаются рейсы или нет, описание программ и отелей",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "2. Проверка отображения продукта на внешних площадках и агрегаторах (Слетать, Турвизор, Травелата)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "3. В случае выявления проблем постановка задачи на проверку и устранение",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "группа тарифов, IT, отдел контента",
+              "step_department_roles": "устранение технических ошибок и сбоев",
+              "step_needs_automation": "слабый процесс проверки настроенных интеграций"
+            },
+            {
+              "step_description": "4. Первичное сравнение цен с конкурентами на агрегаторах (Слетать, Турвизор)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "да, парсинг цен"
+            },
+            {
+              "step_description": "5. Первичное сравнение цен на сайтах других ТО:Coral, Anex, Пегас, Библио, Русский экспресс, Пакс, Fun Sun, Амботис (могут варьироваться в зависимости от направления)",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "да, парсинг цен"
+            }
+          ]
+        },
+        {
+          "process_name": "Текущий контроль выведенного продукта",
+          "process_description": "поддержание текущей жизнедеятельности продукта",
+          "process_trigger": "статистика продаж в ежедневном/еженедельном режиме, выявленные проблемы у смежных департаментов",
+          "process_result": "устранение текущих ошибок и проблем по продукту, конкурентный продукт",
+          "process_systems": [
+            "Само",
+            "Битрикс",
+            "почтовый сервис"
+          ],
+          "process_databases": [
+            "Само",
+            "Битрикс",
+            "сайты конкурентов и агрегаторы"
+          ],
+          "process_steps_count": "11",
+          "process_steps": [
+            {
+              "step_description": "1. Изучение предложений конкурентов по ценам, опубликованным акциям, ассортименту на сайтах компаний-конкурентов, агрегаторах.",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "да, автоматизация парсинга"
+            },
+            {
+              "step_description": "2. Мониторинг ситуации с продажами на основании ежедневной/еженедельной статистики: контроль модуля \"Заявки\" в Само туре",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "3. Получение обратной связи от операционного отдела по продукту: процесс обработки заявок, запросов, трудности, возникающие с технической стороны и со стороны коммуникации с партнером, конверсия по заявкам , скорость подтверждения",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "операционный отдел",
+              "step_department_roles": "фидбэк по проблемным ситуациям, ставят задачи в IT и тарифы. Мы в наблюдателях",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "4. При выявлении ошибок постановка задачи в IT и группу тарифов на устранение",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "IT и группу тарифов",
+              "step_department_roles": "техническое устранение ошибок",
+              "step_needs_automation": "нужна система проверки работы интеграций не только на уровне первоначального вывода цен, но на всех этапах"
+            },
+            {
+              "step_description": "5. Обсуждение с партнером и поиск путей устранение коммуникационных проблем: создание чатов, изменение схем взаимодействия, кураторы",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "6. Получение новой информации по направлениям и рыночной ситуации от офисов по туризму, партнеров, из публикаций на профессиональных площадках",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "7. Контроль загрузки блоков и групп на направлении: модуль \"Мониторинг\" и \"Заявки\" в Само. Смотрю параметры процент загрузки, глубину, заложенные билеты, количество заявок, которое село за предыдущий день, на какие даты. Были ли подвижки после изменения стоимости билетов.",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "автоматизация процесса загрузки блоков, контроль перекосов вылет/возврат."
+            },
+            {
+              "step_description": "8. Обсуждение с чартерной группой шагов по улучшению ситуации с закрытием блоков, стратегии ценообразования",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "чартерная группа",
+              "step_department_roles": "чартерная группа осуществляет основной контроль за загрузкой и ценнобразованием блочной перевозки",
+              "step_needs_automation": "Корректировка цен в зависимости от процента загрузки"
+            },
+            {
+              "step_description": "9. Контроль отображения продукта на сайте компании и других площадках в ежедневном режиме (заходим на наш сайт в поиск, на сайты агрегаторов: Слетать, Турвизор)",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "10. Подключение к решению проблемных ситуаций в операционном отделе в случае невозможности решения на уровне менеджеров и руководителей операционного отдела. Пишем, звоним руководству партнера",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "операционный отдел",
+              "step_department_roles": "пытаются решить проблемы на своем уровне",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "11. Еженедельный отчет ЗГД",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            }
+          ]
+        },
+        {
+          "process_name": "Корректировка продукта",
+          "process_description": "ревизия продукта с учетом текущей рыночной ситуации, продаж, спроса, конверсии",
+          "process_trigger": "отставание от плановых показателей, спад/рост продаж, горение по блочной программе, низкая конверсия по продукту, существенные изменения условий на направлении",
+          "process_result": "наличие конкурентного актуального продукта с высокой конверсией и фин показателями",
+          "process_systems": [
+            "Само",
+            "Битрикс",
+            "почтовый сервис"
+          ],
+          "process_databases": [
+            "Само",
+            "Битрикс"
+          ],
+          "process_steps_count": "7",
+          "process_steps": [
+            {
+              "step_description": "1. Получение специальных условий от поставщика и работа по снижению себестоимости продукта: запрос спо на отели, запрос на снижение стоимости наземных услуг (трансферы, эскурсии), бонусы, бесплатные сервисы.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "2. Корректировки условий и обязательств с поставщиком: снижение материализации, сокращение или расширение жестких и мягких квот в отелях, перенос или досрочное использование депозитов",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "3. На основании анализа цен конкурентов постановка задачи по корректировке заложенных параметров (наценки, предложения по корректировке стоимости аб) в пакеты в сторону понижения или повышения в зависимости от рыночной тенденции.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "отдел тарифов, чартерная группа",
+              "step_department_roles": "техническое изменение параметров",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "4. Запрос и обеспечение ресурсов (комнаты в отелях, авиабилетов)",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "5. Контроль соблюдения контрактных условий со стороны поставщика по наземным услугам, включая качество предоставляемых услуг.",
+              "step_delays": "нет",
+              "step_errors": "да",
+              "step_involved_departments": "операционный отдел, юрист, финансовый отдел",
+              "step_department_roles": "предоставляют информацию о возникших нарушениях",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "6. Анализ конверсии по выведенному продукту",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "отдел тарифов",
+              "step_department_roles": "предоставляют информацию по конверсии туров",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "7. Постановка задачи в отдел тарификации на снятие продукта с низкой конверсией",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "отдел тарифов",
+              "step_department_roles": "техническое обеспечение",
+              "step_needs_automation": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Продвижение продукта",
+      "task_processes": [
+        {
+          "process_name": "Организация обучения по продукту",
+          "process_description": "организация обучающих мероприятий по продукту для сотрудников и агентов",
+          "process_trigger": "вывод нового продукта",
+          "process_result": "знание продукта",
+          "process_systems": [
+            "Само",
+            "Битрикс",
+            "почтовый сервис"
+          ],
+          "process_databases": [
+            "Само",
+            "Битрикс"
+          ],
+          "process_steps_count": "7",
+          "process_steps": [
+            {
+              "step_description": "1. Запрос организации вебинара  принимающей стороне",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "2. Постановка задачи в Битрикс отделу контента и отделу рекламы на организацию вебинар",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "отдел контента и отдел рекламы",
+              "step_department_roles": "техническая организация, координация действий с принимающей стороной",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "3. Запрос отделу контента на подготовку презентации",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "отдел контента",
+              "step_department_roles": "подготовка презентации по установленным параметрам",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "4. На регулярной основе информирование по средствам Битрикса и рассылок смежные отделы об изменениях и новинках продукта",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "5. Запрос организации рекламного тура принимающей стороне",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "6. Задача в отдел тарифов по заведению рекламного тура",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "отдел тарифов",
+              "step_department_roles": "заведение рекламного тура в онлайн",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "7. Постановка задачи в Битрикс отделу контента и отделу по работе с ключевыми клиентами/отделу по развитию региональных офисов на продвижение рекламного тура и набору группы",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "отдел контента, отдел по работе с ключевыми клиентами, отдел по развитию региональных офисов",
+              "step_department_roles": "отдел контента готовит баннеры, вывешивает программу на сайт, отдел по работе с ключевыми клиентами и/или отдел по развитию региональных офисов набирает группу",
+              "step_needs_automation": ""
+            }
+          ]
+        },
+        {
+          "process_name": "Маркетинговые активности",
+          "process_description": "Процесс направлен на рекламу и продвижения продукта, информирование аудитории для активизации продаж, шаги для донесения рынку информации о продукте",
+          "process_trigger": "вывод нового продукта, выход на новые направления, спад продаж, рост объемов на направлении, низкая конверсия по продукту",
+          "process_result": "рост продаж на направлении",
+          "process_systems": [
+            "Само",
+            "Битрикс",
+            "почтовый сервис"
+          ],
+          "process_databases": [
+            "Само",
+            "Битрикс"
+          ],
+          "process_steps_count": "4",
+          "process_steps": [
+            {
+              "step_description": "1. Запрос акций и предложение участия в рекламных компаниях партнерам",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "2. При переговорах с отелями предложение участия в рекламных компаниях",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "3. Передача информационных и рекламных материалов  в отдел контента",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "отдел контента",
+              "step_department_roles": "техническое размещение контента на сайте",
+              "step_needs_automation": ""
+            },
+            {
+              "step_description": "4. Постановка задачи в отдел контента, отдел рекламы, отдел по работе с ключевыми клиентами/отдел по развитию региональных офисов для реализации акций",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "отдел контента, отдел рекламы, отдел по работе с ключевыми клиентами/отдел по развитию региональных офисов",
+              "step_department_roles": "отдел контента, отдел рекламы - технический запуск акций и креатив. отдел по работе с ключевыми клиентами/отдел по развитию региональных офисов  - донесение акций до агентов, подведение итогов",
+              "step_needs_automation": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

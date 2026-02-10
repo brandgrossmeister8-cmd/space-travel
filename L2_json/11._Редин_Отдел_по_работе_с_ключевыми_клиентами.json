@@ -1,0 +1,328 @@
+{
+  "source_file": "11. Редин_Отдел по работе с ключевыми клиентами.xls",
+  "level": "L2",
+  "respondent": {
+    "fio": "Редин А.П.",
+    "department": "Департамент развития взаимодействия с агентствами",
+    "division": "Отдел по работе с ключевыми клиентами",
+    "position": "Руководитель отдела",
+    "division_size": "7.0"
+  },
+  "division_goals": [
+    "Создание комфортной среды для агента во взаимодействии с ТО, выполнение поставленного плана на регион, проведение бизнес-завтраков, сглаживание негативных моментов, ускорение процессов между агентом и отделом продаж, набор рекламных туров, продвижение продукта ТО, регистрация."
+  ],
+  "division_tasks": [
+    {
+      "task_name": "Привлечение новых агентов, увеличение объемов у уже работающих агетов, увеличение чека и привлечение от других ТО ТА с премиальным сегментом, улучшение качества обслуживания.",
+      "task_processes": [
+        {
+          "process_name": "Процесс запуска набора рекламного тура.",
+          "process_description": "Постановка задачи по набору, анонс и набор, подготовка руминг листа, дипломы, закрытие РТ.",
+          "process_trigger": "Сотрудник отдела продукта.",
+          "process_result": "100% закрытие рекламного тура.",
+          "process_systems": [
+            "Битрикс",
+            "Само тур",
+            "сайт",
+            "мессенджеры",
+            "таблица excel",
+            "почта."
+          ],
+          "process_steps_count": "4.0",
+          "process_steps": [
+            {
+              "step_description": "1. Постановка задачи от отдела продукта по шаблону нашего отдела в Битрикс.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "КАМ, Продукт, Контент.",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Заведение рекламного тура отделом тарификации на сайте в поиске.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Распределение РТ на куратора в нашем отделе.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Получение отчета от сотрудника на финальной стадии.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Процесс запуска БЗ",
+          "process_description": "Постановка задачи по набору, анонс и набор, проведение БЗ.",
+          "process_trigger": "Сотрудник отдела рекламы.",
+          "process_result": "Проведение БЗ",
+          "process_systems": [
+            "Битрикс",
+            "Само тур",
+            "сайт",
+            "мессенджеры",
+            "таблица excel",
+            "почта."
+          ],
+          "process_steps_count": "4.0",
+          "process_steps": [
+            {
+              "step_description": "1. Постановка задачи  в Битрикс.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "КАМ, Реклама, Продукт, Контент.",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Распределение БЗ на куратора в нашем отделе.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Получение отчета от сотрудника на финальной стадии.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Возможно личное участие в БЗ.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Запуск акции или продвижение нового продукта",
+          "process_description": "Постановка задачи по запуску нового продукта, анонс.",
+          "process_trigger": "Сотрудник отдела продукта.",
+          "process_result": "Донесение акции/новинки до рынка.",
+          "process_systems": [
+            "Битрикс",
+            "сайт",
+            "мессенджеры",
+            "почта."
+          ],
+          "process_steps_count": "3.0",
+          "process_steps": [
+            {
+              "step_description": "1. Постановка задачи в Битрикс.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "КАМ, Реклама, Продукт, Контент.",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Распределение на менеджера нашего отдела.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Получение отчета от сотрудника на финальной стадии.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Запуск Роад Шоу",
+          "process_description": "Постановка задачи по набору, анонс и набор, проведение РШ.",
+          "process_trigger": "Сотрудник отдела рекламы.",
+          "process_result": "Проведение мероприятия",
+          "process_systems": [
+            "Битрикс",
+            "сайт",
+            "мессенджеры",
+            "почта."
+          ],
+          "process_steps_count": "9.0",
+          "process_steps": [
+            {
+              "step_description": "1. Постановка задачи в Битрикс.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "КАМ, Авиа, Реклама, Отдел группового бронирования, Контент, Бухгалтерия.",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Согласование бюджета.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Бронирование а/б и гостиниц.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Согласование меню с партнерами.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Анонс на сайте.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "6. Набор участников и внесение в таблицу.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "7. Проведение мероприятия.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "8. Отчет и закрывающие документы для бухгалтерии.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "9. Отчет по участникам для партнеров.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Процесс запуска отчета по результатам продаж агента.",
+          "process_description": "Выгрузка отчета по обороту агента.",
+          "process_trigger": "Самостоятельно",
+          "process_result": "Статистика",
+          "process_systems": [
+            "Само-Тур",
+            "Excel."
+          ],
+          "process_steps_count": "3.0",
+          "process_steps": [
+            {
+              "step_description": "1. Выгрузка статистики из Само-тра за определенный период.",
+              "step_delays": "нет",
+              "step_errors": "да",
+              "step_involved_departments": "КАМ",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Анализ обората агента за определенный период.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Изменение статуса агента согласно бонусной программе.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            }
+          ]
+        },
+        {
+          "process_name": "Процесс переноса денежных средств и возврата.",
+          "process_description": "Получение письма от агента, проверка корректности заполнения, взаимоде с финансовым департаментом.",
+          "process_trigger": "Агент",
+          "process_result": "Перенос денежных средств",
+          "process_systems": [
+            "Само-Тур",
+            "Инвойс Трекер",
+            "почта."
+          ],
+          "process_steps_count": "4.0",
+          "process_steps": [
+            {
+              "step_description": "1. Получение заявление от агента на почту или мессенджер.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "КАМ, финансовый департамент.",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "2. Проверка корректности заполнения - юр. лицо и сумма.",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "3. Внесение в инвойс трекер.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            },
+            {
+              "step_description": "4. Отправка письма в финансовый департамент.",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "",
+              "step_department_roles": "",
+              "step_needs_automation": "да"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
