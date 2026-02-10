@@ -12839,10 +12839,10 @@
         "items": []
       },
       {
-        "id": "OPS-L2-MOD-002",
+        "id": "INB-L2-MOD-002",
         "fio": "Моделирование",
         "lvl": 2,
-        "dep": "OPS",
+        "dep": "INB",
         "div": "Отдел MICE",
         "modeling": true,
         "g": [],
