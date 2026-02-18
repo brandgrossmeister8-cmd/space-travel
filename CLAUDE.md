@@ -31,7 +31,7 @@
 | 4.4 | Оценка бюджета и детальный roadmap | ⬜ Ожидает |
 
 **Входные данные для Этапа 4:**
-- `automation/automation_potential.md` — **64 точки** автоматизации v2.0 (исправлены ошибки, NET-экономия 1 272 ч/мес)
+- `automation/3.4_automation_potential.md` — **64 точки** автоматизации v2.0 (исправлены ошибки, NET-экономия 1 272 ч/мес)
 - `automation/3.4_dependency_graph.md` — граф зависимостей, 9 ТЗ-слияний, последовательность волн
 - `automation/3.4_impact_effort_matrix.md` — матрица Q1/Q2/Q3/Q4, топ-10 по ROI
 - `automation/3.3_automation_registry.md` — детальные описания AUTO-001–048
@@ -76,7 +76,7 @@
 - **9 ТЗ-слияний** — точки с пересекающимися требованиями объединены
 
 **Файлы:**
-- `automation/automation_potential.md` — полный реестр потенциала автоматизации **v2.0** (64 записи, NET 1 272 ч/мес)
+- `automation/3.4_automation_potential.md` — полный реестр потенциала автоматизации **v2.0** (64 записи, NET 1 272 ч/мес)
 - `automation/3.4_dependency_graph.md` — граф зависимостей, 9 ТЗ-слияний, последовательность волн
 - `automation/3.4_impact_effort_matrix.md` — матрица Impact×Effort, топ-10 по ROI
 
@@ -115,7 +115,7 @@
 - **ТОП-3 по использованию:** САМО-тур (85 упоминаний), Битрикс24 (67), Outlook (52)
 
 **Файлы:**
-- `automation/systems_raw_data.json`
+- `automation/3.1_systems_raw_data.json`
 - `automation/3.1_systems_inventory.md`
 
 ---
@@ -239,13 +239,13 @@
 - `L2_json/12._Уфа_Офис_MODELED.json` — офис Уфа (смоделирован)
 
 **Этап 3:**
-- `automation/systems_raw_data.json` — сырые данные IT-систем из анкет
+- `automation/3.1_systems_raw_data.json` — сырые данные IT-систем из анкет
 - `automation/3.1_systems_inventory.md` — реестр IT-систем (42 системы)
 - `automation/3.2_integrations_map_AS_IS.md` — карта интеграций AS-IS (47 записей)
 - `automation/3.2_integrations_diagram_AS_IS.md` — диаграммы интеграций
 - `automation/3.3_automation_registry.md` — реестр точек автоматизации (42 записи)
 - `automation/3.3_dashboards_registry.md` — реестр дашбордов (16 записей)
-- `automation/automation_potential.md` — сводный реестр потенциала **v2.0** (64 точки, NET 1 272 ч/мес, сложность 1-5)
+- `automation/3.4_automation_potential.md` — сводный реестр потенциала **v2.0** (64 точки, NET 1 272 ч/мес, сложность 1-5)
 - `automation/3.4_dependency_graph.md` — граф зависимостей, 9 ТЗ-слияний, последовательность волн
 - `automation/3.4_impact_effort_matrix.md` — матрица Impact×Effort, топ-10 по ROI
 
