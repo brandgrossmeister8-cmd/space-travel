@@ -49,7 +49,7 @@
 | `L2_json/MICE_Отдел_MODELED.json` | ✅ |
 | `L2_json/Въездной_туризм_Отдел_MODELED.json` | ✅ |
 | `L2_json/Визовое_сопровождение_GROUP_MODELED.json` | ✅ |
-| `docs/modeling/modeling_report.md` | ✅ |
+| `docs/modeling/1.1_modeling_report.md` | ✅ |
 
 ### Итоговое покрытие:
 
@@ -283,9 +283,9 @@
 
 | Файл | Статус |
 |------|--------|
-| `goals/L1_goals_SMART.json` | ✅ |
-| `goals/L2_goals_SMART.json` | ✅ |
-| `goals/goals_hierarchy_L1_L2.json` | ✅ |
+| `goals/1.2_L1_goals_SMART.json` | ✅ |
+| `goals/1.2_L2_goals_SMART.json` | ✅ |
+| `goals/1.3_goals_hierarchy_L1_L2.json` | ✅ |
 | `goals/ЭКСПЕРТНОЕ_ЗАКЛЮЧЕНИЕ_SMART_ЦЕЛИ.md` | ✅ |
 | `goals/ОТЧЁТ_ЗАДАЧА_1.2_SMART.md` | ✅ |
 
@@ -691,17 +691,17 @@
 
 | Файл | Статус | Описание |
 |------|--------|----------|
-| `hierarchy/FULL_HIERARCHY_GOALS_TASKS.json` | ✅ | Полная иерархия L1→L2 |
+| `hierarchy/1.3_FULL_HIERARCHY_GOALS_TASKS.json` | ✅ | Полная иерархия L1→L2 |
 | `hierarchy/ОТЧЁТ_ЗАДАЧА_1.3_ИЕРАРХИЯ_v2.md` | ✅ | Отчёт о выполнении |
-| `hierarchy/L1-01_AGN_HIERARCHY_MODEL.json` | ✅ | Агентства |
-| `hierarchy/L1-02_REV_HIERARCHY_MODEL.json` | ✅ | Операционные доходы |
-| `hierarchy/L1-03_INB_MICE_HIERARCHY_MODEL.json` | ✅ | MICE и корп. обслуживание |
-| `hierarchy/L1-04_HR_HIERARCHY_MODEL.json` | ✅ | HR |
-| `hierarchy/L1-05_OPS_HIERARCHY_MODEL.json` | ✅ | Операционный департамент |
-| `hierarchy/L1-06_SRV_HIERARCHY_MODEL.json` | ✅ | Клиентский сервис |
-| `hierarchy/L1-07_IT_HIERARCHY_MODEL.json` | ✅ | IT |
-| `hierarchy/L1-08_FIN_HIERARCHY_MODEL.json` | ✅ | Финансы |
-| `hierarchy/L1-09_MKT_HIERARCHY_MODEL.json` | ✅ | Маркетинг |
+| `hierarchy/1.3_L1-01_AGN_HIERARCHY_MODEL.json` | ✅ | Агентства |
+| `hierarchy/1.3_L1-02_REV_HIERARCHY_MODEL.json` | ✅ | Операционные доходы |
+| `hierarchy/1.3_L1-03_INB_MICE_HIERARCHY_MODEL.json` | ✅ | MICE и корп. обслуживание |
+| `hierarchy/1.3_L1-04_HR_HIERARCHY_MODEL.json` | ✅ | HR |
+| `hierarchy/1.3_L1-05_OPS_HIERARCHY_MODEL.json` | ✅ | Операционный департамент |
+| `hierarchy/1.3_L1-06_SRV_HIERARCHY_MODEL.json` | ✅ | Клиентский сервис |
+| `hierarchy/1.3_L1-07_IT_HIERARCHY_MODEL.json` | ✅ | IT |
+| `hierarchy/1.3_L1-08_FIN_HIERARCHY_MODEL.json` | ✅ | Финансы |
+| `hierarchy/1.3_L1-09_MKT_HIERARCHY_MODEL.json` | ✅ | Маркетинг |
 
 ### Выполненные проверки:
 - [x] Уточнена подчинённость Визового сопровождения → Операционный департамент ✅
@@ -739,7 +739,7 @@
 
 ### L1-02: ДЕПАРТАМЕНТ ПО УПРАВЛЕНИЮ ОПЕРАЦИОННЫМИ ДОХОДАМИ (Баландина)
 
-**Штат:** 21 чел. | **Отделов:** 6 | **Файл:** `hierarchy/L1-02_REV_HIERARCHY_MODEL.json`
+**Штат:** 21 чел. | **Отделов:** 6 | **Файл:** `hierarchy/1.3_L1-02_REV_HIERARCHY_MODEL.json`
 
 #### Задачи департамента (6 шт.):
 
@@ -790,7 +790,7 @@
 
 ### L1-03: ДЕПАРТАМЕНТ MICE И КОРПОРАТИВНОГО ОБСЛУЖИВАНИЯ (Питуркин)
 
-**Штат:** 6 чел. | **Отделов:** 3 | **Файл:** `hierarchy/L1-03_INB_MICE_HIERARCHY_MODEL.json`
+**Штат:** 6 чел. | **Отделов:** 3 | **Файл:** `hierarchy/1.3_L1-03_INB_MICE_HIERARCHY_MODEL.json`
 
 #### Задачи департамента (5 шт.):
 
@@ -836,7 +836,7 @@
 
 ### L1-05: ОПЕРАЦИОННЫЙ ДЕПАРТАМЕНТ (Преображенская)
 
-**Штат:** 50 чел. | **Отделов:** 6 | **Файл:** `hierarchy/L1-05_OPS_HIERARCHY_MODEL.json`
+**Штат:** 50 чел. | **Отделов:** 6 | **Файл:** `hierarchy/1.3_L1-05_OPS_HIERARCHY_MODEL.json`
 
 #### Задачи департамента (4 шт.):
 
@@ -889,7 +889,7 @@
 
 ### L1-06: УПРАВЛЕНИЕ КЛИЕНТСКОГО СЕРВИСА (Акопова)
 
-**Штат:** 12 чел. | **Отделов:** 2 | **Файл:** `hierarchy/L1-06_SRV_HIERARCHY_MODEL.json`
+**Штат:** 12 чел. | **Отделов:** 2 | **Файл:** `hierarchy/1.3_L1-06_SRV_HIERARCHY_MODEL.json`
 
 #### Задачи департамента (6 шт.):
 
@@ -950,7 +950,7 @@
 
 ### L1-04: ДЕПАРТАМЕНТ HR (Жигалина)
 
-**Штат:** 5 чел. | **Отделов:** 0 (департамент без деления) | **Файл:** `hierarchy/L1-04_HR_HIERARCHY_MODEL.json`
+**Штат:** 5 чел. | **Отделов:** 0 (департамент без деления) | **Файл:** `hierarchy/1.3_L1-04_HR_HIERARCHY_MODEL.json`
 
 #### Цели департамента (3 шт.):
 
@@ -1073,8 +1073,8 @@
 
 | Файл | Статус | Описание |
 |------|--------|----------|
-| `structure/value_chain.md` | ✅ | Цепочка создания ценности с визуализацией |
-| `structure/departments_classification.md` | ✅ | Детальная классификация департаментов |
+| `structure/1.4_value_chain.md` | ✅ | Цепочка создания ценности с визуализацией |
+| `structure/1.4_departments_classification.md` | ✅ | Детальная классификация департаментов |
 
 ### Классификация департаментов:
 
@@ -1867,13 +1867,13 @@
 
 | Файл | Описание |
 |------|----------|
-| `processes/core_processes_list.md` | Реестр 6 сквозных процессов |
-| `processes/BP_01_Tour_Order.md` | Детальное описание Lead-to-Cash (85% выручки) |
-| `processes/BP_02_Marketing_Campaign.md` | Детальное описание маркетинговых кампаний |
-| `processes/BP_03_MICE_Corporate.md` | Детальное описание MICE-процесса |
-| `processes/BP_04_Financial_Cycle.md` | Детальное описание финансового цикла |
-| `processes/BP_05_Product_Formation.md` | Детальное описание формирования турпродукта |
-| `processes/BP_06_Customer_Support.md` | Детальное описание клиентской поддержки |
+| `processes/2.2_core_processes_list.md` | Реестр 6 сквозных процессов |
+| `processes/2.3_BP_01_Tour_Order.md` | Детальное описание Lead-to-Cash (85% выручки) |
+| `processes/2.3_BP_02_Marketing_Campaign.md` | Детальное описание маркетинговых кампаний |
+| `processes/2.3_BP_03_MICE_Corporate.md` | Детальное описание MICE-процесса |
+| `processes/2.3_BP_04_Financial_Cycle.md` | Детальное описание финансового цикла |
+| `processes/2.3_BP_05_Product_Formation.md` | Детальное описание формирования турпродукта |
+| `processes/2.3_BP_06_Customer_Support.md` | Детальное описание клиентской поддержки |
 
 ---
 
@@ -2080,10 +2080,10 @@
 
 | Файл | Описание |
 |------|----------|
-| `processes/process_to_task_mapping.md` | Полная матрица маппинга процессов на задачи L2 |
-| `processes/orphan_processes.md` | Анализ процессов без привязки |
-| `processes/BP_07_HR_Management.md` | Процесс управления персоналом (поддерживающий) |
-| `processes/BP_08_IT_Support.md` | Процесс IT-обеспечения (поддерживающий) |
+| `processes/2.4_process_to_task_mapping.md` | Полная матрица маппинга процессов на задачи L2 |
+| `processes/2.4_orphan_processes.md` | Анализ процессов без привязки |
+| `processes/2.3_BP_07_HR_Management.md` | Процесс управления персоналом (поддерживающий) |
+| `processes/2.3_BP_08_IT_Support.md` | Процесс IT-обеспечения (поддерживающий) |
 
 ---
 
@@ -2222,7 +2222,7 @@
 
 | Файл | Описание |
 |------|----------|
-| `processes/MICE_regulations.md` | 21 регламент MICE-департамента |
+| `processes/5.1_MICE_regulations.md` | 21 регламент MICE-департамента |
 
 ### Следующие шаги
 
@@ -2273,7 +2273,7 @@
 | 2026-02-17 | 2.3 | ✅ Выполнено | 6 сквозных процессов описаны детально: BP-01 — BP-06. Добавлены BP-05 (Формирование турпродукта) и BP-06 (Клиентская поддержка). 30+ точек автоматизации, KPI по всем процессам |
 | 2026-02-17 | 2.4 | ✅ Выполнено | Маппинг процессов: 8 процессов → 52 задачи (100%). Созданы BP-07 (HR) и BP-08 (IT). Добавлены 6 рег. офисов + юрист. 8 новых точек автоматизации |
 | 2026-02-17 | **ЭТАП 2** | ✅ **ЗАВЕРШЕНО** | Все 4 задачи выполнены. Итог: 8 процессов (6 основных + 2 поддерживающих), 389 взаимодействий, 38+ точек автоматизации, 100% покрытие задач L2 |
-| 2026-02-17 | 5.1 | ✅ Выполнено | Регламенты MICE: 21 процесс департамента Питуркина. Все процессы были без регламентов (100%). Создан файл processes/MICE_regulations.md |
+| 2026-02-17 | 5.1 | ✅ Выполнено | Регламенты MICE: 21 процесс департамента Питуркина. Все процессы были без регламентов (100%). Создан файл processes/5.1_MICE_regulations.md |
 | 2026-02-17 | АУДИТ 2 | ✅ Выполнено | Аудит Этапа 2: выявлено 47 проблем (12 критических). Устранено: MICE↔24/7 связь, L2-ID исправлены, офисы Ростов/Уфа добавлены, опечатки исправлены, диаграммы унифицированы, системы в реестре (32 шт.), AUTO-SUP-03↔HR связан. Оценка: 75→92/100 |
 | 2026-02-17 | 3.1 | ✅ Выполнено | Инвентаризация IT-систем: 42 системы в 9 категориях, 18 с API, 8 критических. ТОП: САМО-тур (85), Битрикс24 (67), Outlook (52). Выявлены проблемы: Invoice Tracker на Google Таблицах, ручные процессы САМО↔1С |
 | 2026-02-17 | 3.2 | ✅ Выполнено | Карта интеграций AS-IS: 47 интеграций (12 API, 8 файловых, 27 ручных). Выявлены 8 критических разрывов: GDS→1С (авиабилеты), САМО↔1С (P&L), Invoice Tracker, мессенджеры без CRM |

@@ -144,7 +144,7 @@
 
 **Ключевые исправления:**
 - ✅ MICE ↔ 24/7 поддержка — добавлена связь в BP-03, BP-06 и матрицу
-- ✅ 21 регламент MICE создан (`processes/MICE_regulations.md`)
+- ✅ 21 регламент MICE создан (`processes/5.1_MICE_regulations.md`)
 - ✅ Офисы Ростов-на-Дону и Уфа добавлены (смоделированы)
 - ✅ L2-ID исправлены, диаграммы унифицированы, опечатки устранены
 
@@ -213,8 +213,8 @@
 **Этап 1:**
 - `hierarchy/L1-XX_CODE_HIERARCHY_MODEL.json` — иерархии (9 файлов)
 - `goals/` — SMART-цели L1 и L2
-- `structure/value_chain.md` — цепочка создания ценности
-- `structure/departments_classification.md` — классификация департаментов
+- `structure/1.4_value_chain.md` — цепочка создания ценности
+- `structure/1.4_departments_classification.md` — классификация департаментов
 
 **Этап 2:**
 - `docs/2.1_department_interactions.json` — база взаимодействий
@@ -222,17 +222,17 @@
 - `processes/2.1_interactions_matrix.md` — матрица интенсивности
 - `docs/2.2_critical_business_processes.json` — база критических процессов
 - `processes/2.2_critical_processes_analysis.md` — анализ процессов
-- `processes/core_processes_list.md` — реестр 6 сквозных процессов
-- `processes/BP_01_Tour_Order.md` — процесс обработки заявки (Lead-to-Cash)
-- `processes/BP_02_Marketing_Campaign.md` — процесс маркетинговой кампании
-- `processes/BP_03_MICE_Corporate.md` — процесс MICE и корп. обслуживания
-- `processes/BP_04_Financial_Cycle.md` — финансовый цикл
-- `processes/BP_05_Product_Formation.md` — формирование турпродукта
-- `processes/BP_06_Customer_Support.md` — клиентская поддержка и маршрутизация
-- `processes/BP_07_HR_Management.md` — управление персоналом (поддерживающий)
-- `processes/BP_08_IT_Support.md` — IT-обеспечение (поддерживающий)
-- `processes/process_to_task_mapping.md` — маппинг процессов на задачи L2
-- `processes/orphan_processes.md` — анализ процессов без привязки
+- `processes/2.2_core_processes_list.md` — реестр 6 сквозных процессов
+- `processes/2.3_BP_01_Tour_Order.md` — процесс обработки заявки (Lead-to-Cash)
+- `processes/2.3_BP_02_Marketing_Campaign.md` — процесс маркетинговой кампании
+- `processes/2.3_BP_03_MICE_Corporate.md` — процесс MICE и корп. обслуживания
+- `processes/2.3_BP_04_Financial_Cycle.md` — финансовый цикл
+- `processes/2.3_BP_05_Product_Formation.md` — формирование турпродукта
+- `processes/2.3_BP_06_Customer_Support.md` — клиентская поддержка и маршрутизация
+- `processes/2.3_BP_07_HR_Management.md` — управление персоналом (поддерживающий)
+- `processes/2.3_BP_08_IT_Support.md` — IT-обеспечение (поддерживающий)
+- `processes/2.4_process_to_task_mapping.md` — маппинг процессов на задачи L2
+- `processes/2.4_orphan_processes.md` — анализ процессов без привязки
 
 **Этап 2 (аудит):**
 - `L2_json/11._Ростов-на-Дону_Офис_MODELED.json` — офис Ростов-на-Дону (смоделирован)
@@ -250,7 +250,7 @@
 - `automation/3.4_impact_effort_matrix.md` — матрица Impact×Effort, топ-10 по ROI
 
 **Этап 5 (частично):**
-- `processes/MICE_regulations.md` — 21 регламент MICE-департамента
+- `processes/5.1_MICE_regulations.md` — 21 регламент MICE-департамента
 
 ### Трекинг
 - `СОГЛАСОВАННЫЕ_ЭТАПЫ_SPACE_TRAVEL.md` — **основной документ для владельца бизнеса**
