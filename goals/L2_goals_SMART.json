@@ -1,0 +1,540 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "date": "2026-02-16",
+    "description": "SMART-цели руководителей отделов (L2) — СКОРРЕКТИРОВАНО с каскадированием новых L1 целей",
+    "total_divisions": 37,
+    "total_goals": 52,
+    "new_goals_v2": 15
+  },
+  "divisions": [
+    {
+      "division_id": "L2-01",
+      "division_name": "Управление по развитию региональных офисов",
+      "parent_department_id": "L1-01",
+      "head": "Осипов",
+      "goals": [
+        {
+          "goal_id": "L2-01-G1",
+          "goal_text_SMART": "Обеспечить выполнение плана продаж по 8 региональным офисам на уровне 100% к 31.12.2026",
+          "linked_L1_goal_id": "L1-01-G1",
+          "kpi": [{"name": "Выполнение плана по регионам", "target": "100%"}]
+        },
+        {
+          "goal_id": "L2-01-G2",
+          "goal_text_SMART": "Повысить долю агентов с выручкой >1 млн руб. до 35% по каждому региональному офису к 31.12.2026",
+          "linked_L1_goal_id": "L1-01-G3",
+          "kpi": [{"name": "Доля агентов >1 млн в регионах", "target": "35%"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-02",
+      "division_name": "Офис г. Екатеринбург",
+      "parent_department_id": "L1-01",
+      "head": "Попова",
+      "goals": [
+        {
+          "goal_id": "L2-02-G1",
+          "goal_text_SMART": "Увеличить выручку офиса на 18% к 31.12.2026 через привлечение 25 новых агентов",
+          "linked_L1_goal_id": "L1-01-G1",
+          "kpi": [{"name": "Выручка офиса", "target": "+18%"}, {"name": "Новые агенты", "target": 25}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-03",
+      "division_name": "Офис г. Казань",
+      "parent_department_id": "L1-01",
+      "head": "Гришина",
+      "goals": [
+        {
+          "goal_id": "L2-03-G1",
+          "goal_text_SMART": "Увеличить выручку офиса на 20% к 31.12.2026 через привлечение 30 новых агентов",
+          "linked_L1_goal_id": "L1-01-G1",
+          "kpi": [{"name": "Выручка офиса", "target": "+20%"}, {"name": "Новые агенты", "target": 30}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-10",
+      "division_name": "Отдел по работе с ключевыми клиентами",
+      "parent_department_id": "L1-01",
+      "head": "Редин",
+      "goals": [
+        {
+          "goal_id": "L2-10-G1",
+          "goal_text_SMART": "Увеличить долю выручки от ТОП-100 агентов до 40% к 31.12.2026",
+          "linked_L1_goal_id": "L1-01-G1",
+          "kpi": [{"name": "Доля выручки от ТОП-100", "target": "40%"}]
+        },
+        {
+          "goal_id": "L2-10-G2",
+          "goal_text_SMART": "Снизить просроченную ДЗ ключевых агентов до 0% к 31.12.2026",
+          "linked_L1_goal_id": "L1-01-G2",
+          "kpi": [{"name": "Просроченная ДЗ ключевых агентов", "target": "0%"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-11",
+      "division_name": "Группа по привлечению агентств",
+      "parent_department_id": "L1-01",
+      "head": "Вальпуцкий",
+      "goals": [
+        {
+          "goal_id": "L2-11-G1",
+          "goal_text_SMART": "Привлечь 200 новых активных агентов к 31.12.2026 с конверсией лид→продажа не менее 25%",
+          "linked_L1_goal_id": "L1-01-G1",
+          "kpi": [{"name": "Новые активные агенты", "target": 200}, {"name": "Конверсия", "target": ">=25%"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-12",
+      "division_name": "Отдел продукта — группа стран Ближний Восток",
+      "parent_department_id": "L1-02",
+      "head": "Андреева",
+      "goals": [
+        {
+          "goal_id": "L2-12-G1",
+          "goal_text_SMART": "Увеличить маржинальность продукта по Ближнему Востоку на 2 п.п. к 31.12.2026",
+          "linked_L1_goal_id": "L1-02-G1",
+          "kpi": [{"name": "Маржинальность", "target": "+2 п.п."}]
+        },
+        {
+          "goal_id": "L2-12-G2",
+          "goal_text_SMART": "Обеспечить присутствие в 3 альтернативных направлениях региона (Оман, Бахрейн, Иордания) с долей не менее 3% каждое к 31.12.2026",
+          "linked_L1_goal_id": "L1-02-G3",
+          "kpi": [{"name": "Альтернативные направления", "target": "3 с долей >=3%"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-13",
+      "division_name": "Отдел продукта — группа стран Экзотика",
+      "parent_department_id": "L1-02",
+      "head": "Цехович",
+      "goals": [
+        {
+          "goal_id": "L2-13-G1",
+          "goal_text_SMART": "Увеличить маржинальность продукта Экзотика на 2,5 п.п. к 31.12.2026",
+          "linked_L1_goal_id": "L1-02-G1",
+          "kpi": [{"name": "Маржинальность", "target": "+2.5 п.п."}]
+        },
+        {
+          "goal_id": "L2-13-G2",
+          "goal_text_SMART": "Запустить 2 новых направления в год с TTM не более 45 дней",
+          "linked_L1_goal_id": "L1-02-G4",
+          "kpi": [{"name": "Новые направления/год", "target": ">=2"}, {"name": "TTM", "target": "<=45 дней"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-14",
+      "division_name": "Отдел продукта — группа стран FIT",
+      "parent_department_id": "L1-02",
+      "head": "Писцова",
+      "goals": [
+        {
+          "goal_id": "L2-14-G1",
+          "goal_text_SMART": "Увеличить маржинальность FIT-продукта на 1,5 п.п. к 31.12.2026",
+          "linked_L1_goal_id": "L1-02-G1",
+          "kpi": [{"name": "Маржинальность", "target": "+1.5 п.п."}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-15",
+      "division_name": "Отдел продукта — группа стран ЮВА",
+      "parent_department_id": "L1-02",
+      "head": "Черепова",
+      "goals": [
+        {
+          "goal_id": "L2-15-G1",
+          "goal_text_SMART": "Увеличить маржинальность продукта ЮВА на 2 п.п. к 31.12.2026",
+          "linked_L1_goal_id": "L1-02-G1",
+          "kpi": [{"name": "Маржинальность", "target": "+2 п.п."}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-16",
+      "division_name": "Группа тарификации",
+      "parent_department_id": "L1-02",
+      "head": "Ильясова",
+      "goals": [
+        {
+          "goal_id": "L2-16-G1",
+          "goal_text_SMART": "Обеспечить 99% точность расчёта цен и публикацию за 2 часа к 30.06.2026",
+          "linked_L1_goal_id": "L1-02-G2",
+          "kpi": [{"name": "Точность", "target": "99%"}, {"name": "Время публикации", "target": "<=2ч"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-17",
+      "division_name": "Чартерная группа",
+      "parent_department_id": "L1-02",
+      "head": "Зайцев",
+      "goals": [
+        {
+          "goal_id": "L2-17-G1",
+          "goal_text_SMART": "Обеспечить загрузку чартеров 92% и материализацию 95% к 31.12.2026",
+          "linked_L1_goal_id": "L1-02-G1",
+          "kpi": [{"name": "Загрузка", "target": "92%"}, {"name": "Материализация", "target": "95%"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-18",
+      "division_name": "Отдел MICE",
+      "parent_department_id": "L1-03",
+      "head": "Моделирование",
+      "goals": [
+        {
+          "goal_id": "L2-18-G1",
+          "goal_text_SMART": "Увеличить выручку MICE на 35% к 31.12.2026 (до 108 млн руб.) через +30 корпоративных клиентов",
+          "linked_L1_goal_id": "L1-03-G1",
+          "kpi": [{"name": "Выручка MICE", "target": "108 млн"}, {"name": "Новые клиенты", "target": 30}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-19",
+      "division_name": "Отдел въездного туризма",
+      "parent_department_id": "L1-03",
+      "head": "Моделирование",
+      "goals": [
+        {
+          "goal_id": "L2-19-G1",
+          "goal_text_SMART": "Увеличить выручку въездного туризма на 25% к 31.12.2026 через +15 партнёров",
+          "linked_L1_goal_id": "L1-03-G1",
+          "kpi": [{"name": "Выручка Incoming", "target": "+25%"}, {"name": "Новые партнёры", "target": 15}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-20",
+      "division_name": "Группа визового сопровождения",
+      "parent_department_id": "L1-05",
+      "head": "Моделирование",
+      "goals": [
+        {
+          "goal_id": "L2-20-G1",
+          "goal_text_SMART": "Обеспечить успешность оформления виз 98% и срок не более 5 дней к 31.12.2026",
+          "linked_L1_goal_id": "L1-05-G2",
+          "kpi": [{"name": "Успешность", "target": "98%"}, {"name": "Срок", "target": "<=5 дней"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-21",
+      "division_name": "Отдел группового бронирования",
+      "parent_department_id": "L1-05",
+      "head": "Коломина",
+      "goals": [
+        {
+          "goal_id": "L2-21-G1",
+          "goal_text_SMART": "Увеличить конверсию групповых запросов до 35% к 31.12.2026",
+          "linked_L1_goal_id": "L1-05-G1",
+          "kpi": [{"name": "Конверсия", "target": "35%"}, {"name": "Время ответа", "target": "<=4ч"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-22",
+      "division_name": "Отдел бизнес-тревел",
+      "parent_department_id": "L1-03",
+      "head": "Пашин",
+      "goals": [
+        {
+          "goal_id": "L2-22-G1",
+          "goal_text_SMART": "Увеличить выручку бизнес-тревел на 30% к 31.12.2026 через +20 корп. клиентов",
+          "linked_L1_goal_id": "L1-03-G1",
+          "kpi": [{"name": "Выручка BT", "target": "+30%"}, {"name": "Новые клиенты", "target": 20}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-23",
+      "division_name": "ВИП-отдел",
+      "parent_department_id": "L1-05",
+      "head": "Нурумова",
+      "goals": [
+        {
+          "goal_id": "L2-23-G1",
+          "goal_text_SMART": "Достичь NPS VIP-клиентов +70 и допродажи 20% к 31.12.2026",
+          "linked_L1_goal_id": "L1-05-G3",
+          "kpi": [{"name": "NPS VIP", "target": "+70"}, {"name": "Допродажи", "target": "20%"}]
+        },
+        {
+          "goal_id": "L2-23-G2",
+          "goal_text_SMART": "Достичь Repeat Purchase Rate VIP-клиентов 50% к 31.12.2026",
+          "linked_L1_goal_id": "L1-06-G3",
+          "kpi": [{"name": "RPR VIP-клиентов", "target": "50%"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-24",
+      "division_name": "Транспортный отдел",
+      "parent_department_id": "L1-05",
+      "head": "Боканова",
+      "goals": [
+        {
+          "goal_id": "L2-24-G1",
+          "goal_text_SMART": "Обеспечить 100% своевременность выписки и ошибки <0,5% к 31.12.2026",
+          "linked_L1_goal_id": "L1-05-G2",
+          "kpi": [{"name": "Своевременность", "target": "100%"}, {"name": "Ошибки", "target": "<0.5%"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-25",
+      "division_name": "Отдел бронирования",
+      "parent_department_id": "L1-05",
+      "head": "Загородняя",
+      "goals": [
+        {
+          "goal_id": "L2-25-G1",
+          "goal_text_SMART": "Увеличить конверсию запросов в бронирования до 32% к 31.12.2026",
+          "linked_L1_goal_id": "L1-05-G1",
+          "kpi": [{"name": "Конверсия", "target": "32%"}, {"name": "Время ответа", "target": "<=2ч"}]
+        },
+        {
+          "goal_id": "L2-25-G2",
+          "goal_text_SMART": "Сократить время от запроса до подтверждённой брони до 20 часов к 31.12.2026",
+          "linked_L1_goal_id": "L1-05-G4",
+          "kpi": [{"name": "Время до брони", "target": "<=20ч"}, {"name": "Проактивные уведомления", "target": "100%"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-26",
+      "division_name": "Отдел продаж",
+      "parent_department_id": "L1-05",
+      "head": "Преображенская",
+      "goals": [
+        {
+          "goal_id": "L2-26-G1",
+          "goal_text_SMART": "Увеличить конверсию на 5 п.п. и средний чек на 10% к 31.12.2026",
+          "linked_L1_goal_id": "L1-05-G1",
+          "kpi": [{"name": "Конверсия", "target": "+5 п.п."}, {"name": "Средний чек", "target": "+10%"}]
+        },
+        {
+          "goal_id": "L2-26-G2",
+          "goal_text_SMART": "Обеспечить CES < 3 по всем продажам к 31.12.2026",
+          "linked_L1_goal_id": "L1-05-G4",
+          "kpi": [{"name": "CES", "target": "<3"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-27",
+      "division_name": "Отдел клиентской поддержки",
+      "parent_department_id": "L1-06",
+      "head": "Фролова",
+      "goals": [
+        {
+          "goal_id": "L2-27-G1",
+          "goal_text_SMART": "Достичь FCR 75% и CSAT 85% к 31.12.2026",
+          "linked_L1_goal_id": "L1-06-G1",
+          "kpi": [{"name": "FCR", "target": "75%"}, {"name": "CSAT", "target": "85%"}]
+        },
+        {
+          "goal_id": "L2-27-G2",
+          "goal_text_SMART": "Обеспечить 100% охват post-trip коммуникациями и конверсию в повторную покупку 25% к 31.12.2026",
+          "linked_L1_goal_id": "L1-06-G3",
+          "kpi": [{"name": "Post-trip охват", "target": "100%"}, {"name": "Конверсия в RPR", "target": "25%"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-28",
+      "division_name": "Отдел 24/7",
+      "parent_department_id": "L1-06",
+      "head": "Акопова",
+      "goals": [
+        {
+          "goal_id": "L2-28-G1",
+          "goal_text_SMART": "Обеспечить время ответа <=30 сек и решение 80% срочных за 1 час к 31.12.2026",
+          "linked_L1_goal_id": "L1-06-G1",
+          "kpi": [{"name": "Время ответа", "target": "<=30 сек"}, {"name": "Решение за 1ч", "target": "80%"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-29",
+      "division_name": "Отдел рекламы",
+      "parent_department_id": "L1-09",
+      "head": "Колдаева",
+      "goals": [
+        {
+          "goal_id": "L2-29-G1",
+          "goal_text_SMART": "Привлечь партнёрские бюджеты 25 млн руб. и 30+ соглашений к 31.12.2026",
+          "linked_L1_goal_id": "L1-09-G2",
+          "kpi": [{"name": "Партнёрские бюджеты", "target": "25 млн"}, {"name": "Соглашения", "target": ">30"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-30",
+      "division_name": "Отдел контент-маркетинга",
+      "parent_department_id": "L1-09",
+      "head": "Седых",
+      "goals": [
+        {
+          "goal_id": "L2-30-G1",
+          "goal_text_SMART": "Охват B2B-рассылок 50K получателей и конверсия 3% к 31.12.2026",
+          "linked_L1_goal_id": "L1-09-G1",
+          "kpi": [{"name": "Охват рассылок", "target": "50K"}, {"name": "Конверсия", "target": "3%"}]
+        },
+        {
+          "goal_id": "L2-30-G2",
+          "goal_text_SMART": "Увеличить органический трафик на сайт на 50% к 31.12.2026 через SEO и контент",
+          "linked_L1_goal_id": "L1-09-G4",
+          "kpi": [{"name": "Органический трафик", "target": "+50%"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-31",
+      "division_name": "Отдел маркетинга",
+      "parent_department_id": "L1-09",
+      "head": "Четверик",
+      "goals": [
+        {
+          "goal_id": "L2-31-G1",
+          "goal_text_SMART": "Внедрить RoiStat 100% каналов и снизить CPL на 20% к 30.09.2026",
+          "linked_L1_goal_id": "L1-09-G3",
+          "kpi": [{"name": "RoiStat покрытие", "target": "100%"}, {"name": "CPL", "target": "-20%"}]
+        },
+        {
+          "goal_id": "L2-31-G2",
+          "goal_text_SMART": "Достичь доли прямых онлайн-продаж 10% и CAC <3500 руб. к 31.12.2026",
+          "linked_L1_goal_id": "L1-09-G4",
+          "kpi": [{"name": "Доля прямых продаж", "target": "10%"}, {"name": "CAC", "target": "<3500"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-32",
+      "division_name": "Бухгалтерия группы компаний",
+      "parent_department_id": "L1-08",
+      "head": "Волкова",
+      "goals": [
+        {
+          "goal_id": "L2-32-G1",
+          "goal_text_SMART": "Закрытие месяца за 5 дней и 0 ошибок в налоговой отчётности к 30.06.2026",
+          "linked_L1_goal_id": "L1-08-G3",
+          "kpi": [{"name": "Срок закрытия", "target": "5 дней"}, {"name": "Ошибки", "target": "0"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-33",
+      "division_name": "Финансовый отдел",
+      "parent_department_id": "L1-08",
+      "head": "Фомичев",
+      "goals": [
+        {
+          "goal_id": "L2-33-G1",
+          "goal_text_SMART": "0 кассовых разрывов и точность прогноза CF 95% к 31.12.2026",
+          "linked_L1_goal_id": "L1-08-G1",
+          "kpi": [{"name": "Кассовые разрывы", "target": "0"}, {"name": "Точность CF", "target": "95%"}]
+        },
+        {
+          "goal_id": "L2-33-G2",
+          "goal_text_SMART": "Обеспечить хеджирование 70% валютных обязательств к 31.12.2026",
+          "linked_L1_goal_id": "L1-08-G4",
+          "kpi": [{"name": "Хеджирование", "target": ">=70%"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "division_id": "L2-34",
+      "division_name": "Банковская группа",
+      "parent_department_id": "L1-08",
+      "head": "Лебедева",
+      "goals": [
+        {
+          "goal_id": "L2-34-G1",
+          "goal_text_SMART": "100% своевременность платежей и обработка за 1 день к 31.12.2026",
+          "linked_L1_goal_id": "L1-08-G1",
+          "kpi": [{"name": "Своевременность", "target": "100%"}, {"name": "Время обработки", "target": "1 день"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-35",
+      "division_name": "Группа по расчётам с иностранными поставщиками",
+      "parent_department_id": "L1-08",
+      "head": "Мигунова",
+      "goals": [
+        {
+          "goal_id": "L2-35-G1",
+          "goal_text_SMART": "100% своевременность расчётов и отклонение от бюджетного курса <3% к 31.12.2026",
+          "linked_L1_goal_id": "L1-08-G1",
+          "kpi": [{"name": "Своевременность", "target": "100%"}, {"name": "Курс", "target": "<3%"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-36",
+      "division_name": "Бухгалтерия",
+      "parent_department_id": "L1-08",
+      "head": "Соколова",
+      "goals": [
+        {
+          "goal_id": "L2-36-G1",
+          "goal_text_SMART": "100% достоверность учёта и автоматизация учёта АБ к 30.09.2026",
+          "linked_L1_goal_id": "L1-08-G3",
+          "kpi": [{"name": "Достоверность", "target": "100%"}, {"name": "Автоматизация АБ", "target": "100%"}]
+        }
+      ]
+    },
+    {
+      "division_id": "L2-37",
+      "division_name": "Travelluxe (Казахстан)",
+      "parent_department_id": "L1-01",
+      "head": "Демина",
+      "goals": [
+        {
+          "goal_id": "L2-37-G1",
+          "goal_text_SMART": "Увеличить выручку на 25% и +30 активных агентов к 31.12.2026",
+          "linked_L1_goal_id": "L1-01-G1",
+          "kpi": [{"name": "Выручка", "target": "+25%"}, {"name": "Агенты", "target": "+30"}]
+        }
+      ]
+    }
+  ],
+  "new_l2_goals_for_new_l1": {
+    "L1-01-G3 (Качество агентов)": ["L2-01-G2"],
+    "L1-02-G3 (Диверсификация)": ["L2-12-G2"],
+    "L1-02-G4 (TTM)": ["L2-13-G2"],
+    "L1-04-G3 (Обучение)": "Реализуется HR напрямую, без L2",
+    "L1-05-G4 (CES)": ["L2-25-G2", "L2-26-G2"],
+    "L1-06-G3 (RPR)": ["L2-23-G2", "L2-27-G2"],
+    "L1-07-G5 (AI)": "Реализуется IT напрямую, без L2",
+    "L1-08-G4 (Хеджирование)": ["L2-33-G2"],
+    "L1-09-G4 (Digital B2C)": ["L2-30-G2", "L2-31-G2"]
+  },
+  "summary": {
+    "total_l2_goals": 52,
+    "new_goals_v2": 15,
+    "coverage_l1_goals": "100%",
+    "note": "HR (L1-04-G3) и IT (L1-07-G5) — плоская структура, цели реализуются командой напрямую"
+  }
+}

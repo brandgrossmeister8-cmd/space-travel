@@ -2702,9 +2702,9 @@
 
 | Файл | Содержание |
 |------|------------|
-| `automation/systems_landscape_TO_BE.md` | 46 систем с решением по каждой: сохранить / расширить / заменить / добавить |
-| `automation/integrations_map_TO_BE.md` | 47 интеграций TO-BE с указанием технологии и связанной автоматизации |
-| `automation/integrations_diagram_TO_BE.md` | Диаграммы потоков данных по всем 6 ключевым процессам |
+| `automation/4.1_systems_landscape_TO_BE.md` | 46 систем с решением по каждой: сохранить / расширить / заменить / добавить |
+| `automation/4.1_integrations_map_TO_BE.md` | 47 интеграций TO-BE с указанием технологии и связанной автоматизации |
+| `automation/4.1_integrations_diagram_TO_BE.md` | Диаграммы потоков данных по всем 6 ключевым процессам |
 
 ---
 

@@ -38,9 +38,9 @@
 - `automation/3.3_dashboards_registry.md` — реестр 16 дашбордов
 
 **Результаты задачи 4.1:**
-- `automation/systems_landscape_TO_BE.md` — целевой IT-ландшафт: 46 систем, решения по каждой
-- `automation/integrations_map_TO_BE.md` — карта интеграций TO-BE (47 записей: 37 API / 5 полуавто / 5 ручных)
-- `automation/integrations_diagram_TO_BE.md` — диаграммы потоков данных по всем ключевым процессам
+- `automation/4.1_systems_landscape_TO_BE.md` — целевой IT-ландшафт: 46 систем, решения по каждой
+- `automation/4.1_integrations_map_TO_BE.md` — карта интеграций TO-BE (47 записей: 37 API / 5 полуавто / 5 ручных)
+- `automation/4.1_integrations_diagram_TO_BE.md` — диаграммы потоков данных по всем ключевым процессам
 
 ---
 

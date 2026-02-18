@@ -1,0 +1,421 @@
+{
+  "source_file": "MODELED_на_основе_L1_Питуркин_и_L3_взаимодействий.xlsx",
+  "level": "L2",
+  "modeling_note": "Смоделировано на основе: L1 Питуркин (стратегические цели MICE), L3 Погосян/Байба/Пожидаева (Транспортный отдел - запросы на авиа), L3 Хаметова (Бухгалтерия - счета и сверки), L3 Лазарева (Контент-маркетинг - рассылки и лендинги), L3 Хаптаханова (Отдел бронирования - заявки)",
+  "respondent": {
+    "fio": "Руководитель Отдела MICE (моделирование)",
+    "department": "Департамент въездного туризма, MICE и корпоративного обслуживания",
+    "division": "Отдел MICE",
+    "position": "Руководитель Отдела MICE",
+    "division_size": "3"
+  },
+  "division_goals": [
+    {
+      "goal_number": 1,
+      "goal_text": "Увеличить доход компании в сегменте MICE (B2B) с увеличением доли бизнеса направления в рамках холдинга Space Travel",
+      "source": "L1 Питуркин, Цель 1",
+      "linked_department_goal": "Увеличить доход компании в сегменте B2B (MICE, бизнес-тревел, B2C)"
+    },
+    {
+      "goal_number": 2,
+      "goal_text": "Расширить портфель активных MICE-клиентов через привлечение новых корпоративных заказчиков",
+      "source": "L1 Питуркин, Задача 1.1",
+      "linked_department_goal": "Расширить портфель активных MICE и корпоративных клиентов"
+    },
+    {
+      "goal_number": 3,
+      "goal_text": "Обеспечить бесперебойное операционное сопровождение MICE-проектов через эффективное взаимодействие со смежными отделами",
+      "source": "L3 взаимодействия (Транспортный отдел, Бухгалтерия, Бронирование)",
+      "linked_department_goal": "Снизить затраты за счет повышения эффективности и оптимизации внутренних процессов"
+    }
+  ],
+  "division_tasks": [
+    {
+      "task_name": "1. Привлечение и развитие MICE-клиентов",
+      "linked_goal": 1,
+      "source": "L1 Питуркин",
+      "task_processes": [
+        {
+          "process_name": "Формирование воронки B2B-продаж для MICE",
+          "process_description": "Определение целевых сегментов (отрасли, размер компании, регионы), сбор базы потенциальных клиентов через CRM, мероприятия и рекомендации. Настройка этапов воронки: лид → контакт → встреча → предложение → контракт",
+          "process_trigger": "Запуск квартального плана продаж или поступление нового лида",
+          "process_result": "Увеличение базы активных MICE-клиентов, рост конверсии лидов в контракты",
+          "process_systems": ["Bitrix24 CRM", "Outlook", "Excel"],
+          "interactions_from_L3": [],
+          "process_steps": [
+            {
+              "step_description": "1. Определение целевых сегментов и критериев отбора",
+              "step_involved_departments": "Отдел MICE, Отдел маркетинга",
+              "step_needs_automation": "Да (ИИ для анализа рынка)"
+            },
+            {
+              "step_description": "2. Сбор базы потенциальных клиентов",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Да (парсинг и дедупликация)"
+            },
+            {
+              "step_description": "3. Квалификация лидов и первичный контакт",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Частично (автоматические напоминания)"
+            },
+            {
+              "step_description": "4. Проведение встреч и подготовка предложений",
+              "step_involved_departments": "Отдел MICE, Отдел продукта",
+              "step_needs_automation": "Да (калькулятор стоимости MICE)"
+            },
+            {
+              "step_description": "5. Заключение контракта и передача в работу",
+              "step_involved_departments": "Отдел MICE, Юрист, Финансовый отдел",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Участие в тендерах и запросах предложений",
+          "process_description": "Мониторинг тендерных площадок, подготовка стандартизированного пакета документов, формирование процесса быстрой подготовки коммерческого предложения",
+          "process_trigger": "Публикация релевантного тендера или запрос от клиента",
+          "process_result": "Победа в тендере, заключение контракта",
+          "process_systems": ["Тендерные площадки", "Bitrix24", "Word", "Excel"],
+          "interactions_from_L3": [],
+          "process_steps": [
+            {
+              "step_description": "1. Мониторинг тендерных площадок",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Да (автоматические уведомления)"
+            },
+            {
+              "step_description": "2. Оценка тендера и принятие решения об участии",
+              "step_involved_departments": "Отдел MICE, Руководство департамента",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "3. Подготовка документов и коммерческого предложения",
+              "step_involved_departments": "Отдел MICE, Финансовый отдел",
+              "step_needs_automation": "Частично (шаблоны)"
+            },
+            {
+              "step_description": "4. Подача заявки и сопровождение",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "2. Организация авиаперевозки для MICE-групп",
+      "linked_goal": 3,
+      "source": "L3 Погосян, Байба, Пожидаева (Транспортный отдел)",
+      "task_processes": [
+        {
+          "process_name": "Запрос и бронирование групповых авиабилетов",
+          "process_description": "Направление запросов в Транспортный отдел на бронирование групповых авиабилетов, получение тарифов, согласование с клиентом, выписка билетов",
+          "process_trigger": "Подтверждённая заявка MICE-клиента с потребностью в авиаперевозке",
+          "process_result": "Забронированные и выписанные авиабилеты для группы",
+          "process_systems": ["Outlook (group@spacetravel.ru)", "САМО-тур"],
+          "interactions_from_L3": [
+            {
+              "department": "Транспортный отдел",
+              "description": "Получают запросы на бронирование + доп. услуги от Отдела MICE",
+              "source": "L3 Погосян, Байба"
+            }
+          ],
+          "process_steps": [
+            {
+              "step_description": "1. Формирование запроса на групповой перелёт (маршрут, даты, количество)",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Да (шаблон запроса)"
+            },
+            {
+              "step_description": "2. Направление запроса в Транспортный отдел",
+              "step_involved_departments": "Отдел MICE → Транспортный отдел",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "3. Получение и анализ тарифов от Транспортного отдела",
+              "step_involved_departments": "Транспортный отдел → Отдел MICE",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "4. Согласование с клиентом и подтверждение выписки",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Обмен и возврат авиабилетов для MICE-групп",
+          "process_description": "Обработка изменений в бронировании: перебронирование, обмен, возврат билетов при изменении планов клиента или расписания рейсов",
+          "process_trigger": "Запрос клиента на изменение или уведомление об изменении рейса",
+          "process_result": "Переоформленные билеты или возврат средств",
+          "process_systems": ["Outlook", "GDS", "САМО-тур"],
+          "interactions_from_L3": [
+            {
+              "department": "Транспортный отдел",
+              "description": "Получают запросы на перебронирование от Отдела MICE",
+              "source": "L3 Погосян"
+            },
+            {
+              "department": "Транспортный отдел",
+              "description": "Получают запросы на обмен/возврат, делают расчёт и оформление",
+              "source": "L3 Погосян, Байба"
+            },
+            {
+              "department": "Транспортный отдел",
+              "description": "Отправка уведомлений и переоформление билетов при изменении времени вылетов",
+              "source": "L3 Погосян, Пожидаева"
+            }
+          ],
+          "process_steps": [
+            {
+              "step_description": "1. Получение запроса на изменение от клиента",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "2. Направление запроса в Транспортный отдел",
+              "step_involved_departments": "Отдел MICE → Транспортный отдел",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "3. Получение расчёта стоимости обмена/возврата",
+              "step_involved_departments": "Транспортный отдел → Отдел MICE",
+              "step_needs_automation": "Да (автоматический расчёт штрафов)"
+            },
+            {
+              "step_description": "4. Согласование с клиентом и оформление",
+              "step_involved_departments": "Отдел MICE, Транспортный отдел",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "3. Финансовое сопровождение MICE-проектов",
+      "linked_goal": 3,
+      "source": "L3 Хаметова (Бухгалтерия)",
+      "task_processes": [
+        {
+          "process_name": "Выставление счетов MICE-клиентам",
+          "process_description": "Подготовка данных для выставления счетов клиентам, сверка с САМО по услугам и суммам, контроль оплаты",
+          "process_trigger": "Подтверждённая заявка клиента, необходимость выставления счёта",
+          "process_result": "Выставленный и оплаченный счёт",
+          "process_systems": ["САМО-тур", "1С", "Outlook"],
+          "interactions_from_L3": [
+            {
+              "department": "Бухгалтерия",
+              "description": "Получает запрос на выставление счета от менеджера MICE, создаёт счёт в 1С на основании данных в САМО",
+              "source": "L3 Хаметова"
+            },
+            {
+              "department": "Бухгалтерия",
+              "description": "Для выставления документов клиенту ведётся сверка с САМО по услугам, сумме, оплате",
+              "source": "L3 Хаметова"
+            }
+          ],
+          "process_steps": [
+            {
+              "step_description": "1. Ввод заявки в САМО с корректными суммами",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Да (интеграция со сметой)"
+            },
+            {
+              "step_description": "2. Направление запроса на выставление счёта в Бухгалтерию",
+              "step_involved_departments": "Отдел MICE → Бухгалтерия",
+              "step_needs_automation": "Да (автоматический запрос из САМО)"
+            },
+            {
+              "step_description": "3. Сверка данных между MICE и Бухгалтерией",
+              "step_involved_departments": "Отдел MICE, Бухгалтерия",
+              "step_needs_automation": "Да (автосверка САМО-1С)"
+            },
+            {
+              "step_description": "4. Контроль поступления оплаты",
+              "step_involved_departments": "Отдел MICE, Бухгалтерия",
+              "step_needs_automation": "Да (уведомления об оплате)"
+            }
+          ]
+        },
+        {
+          "process_name": "Получение документов от партнёров",
+          "process_description": "Запрос закрывающих документов от партнёров и поставщиков через менеджеров MICE",
+          "process_trigger": "Завершение услуги, необходимость закрывающих документов",
+          "process_result": "Полный пакет закрывающих документов",
+          "process_systems": ["Outlook", "САМО-тур"],
+          "interactions_from_L3": [
+            {
+              "department": "Бухгалтерия",
+              "description": "Если нет контактов партнёра - запрашивает документы через менеджера MICE",
+              "source": "L3 Хаметова"
+            }
+          ],
+          "process_steps": [
+            {
+              "step_description": "1. Получение запроса от Бухгалтерии на документы",
+              "step_involved_departments": "Бухгалтерия → Отдел MICE",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "2. Запрос документов у партнёра",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Да (автоматические напоминания партнёрам)"
+            },
+            {
+              "step_description": "3. Передача документов в Бухгалтерию",
+              "step_involved_departments": "Отдел MICE → Бухгалтерия",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "4. Маркетинговое продвижение MICE-услуг",
+      "linked_goal": 2,
+      "source": "L3 Лазарева (Отдел контент-маркетинга)",
+      "task_processes": [
+        {
+          "process_name": "B2B-рассылки для MICE-сегмента",
+          "process_description": "Постановка задач по тематическим рассылкам для B2B-аудитории, предоставление информации и контента",
+          "process_trigger": "Контент-план, необходимость информирования корпоративных клиентов",
+          "process_result": "Отправленная рассылка по MICE-тематике",
+          "process_systems": ["Bitrix24", "Email-платформа"],
+          "interactions_from_L3": [
+            {
+              "department": "Отдел контент-маркетинга",
+              "description": "Темы рассылок предоставляются MICE в соответствии с контент-планом, информация по теме предоставляется сотрудником MICE",
+              "source": "L3 Лазарева"
+            }
+          ],
+          "process_steps": [
+            {
+              "step_description": "1. Определение темы рассылки по контент-плану",
+              "step_involved_departments": "Отдел MICE, Отдел контент-маркетинга",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "2. Подготовка и передача информации в Контент-маркетинг",
+              "step_involved_departments": "Отдел MICE → Отдел контент-маркетинга",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "3. Согласование текста рассылки",
+              "step_involved_departments": "Отдел MICE, Отдел контент-маркетинга",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Создание лендингов и маркетинговых материалов",
+          "process_description": "Постановка задач на создание лендингов, рекламной продукции, материалов для мероприятий",
+          "process_trigger": "Запуск нового MICE-продукта или мероприятия",
+          "process_result": "Готовые маркетинговые материалы (лендинг, сувенирка, презентации)",
+          "process_systems": ["Bitrix24", "CMS сайта"],
+          "interactions_from_L3": [
+            {
+              "department": "Отдел контент-маркетинга",
+              "description": "MICE ставит задачу, передаёт материалы, утверждает макеты, размещает, получает отчёт",
+              "source": "L3 Лазарева"
+            },
+            {
+              "department": "Отдел контент-маркетинга",
+              "description": "MICE согласовывает бюджет и варианты изготовления рекламной продукции, утверждает макет",
+              "source": "L3 Лазарева"
+            }
+          ],
+          "process_steps": [
+            {
+              "step_description": "1. Постановка задачи в Bitrix24",
+              "step_involved_departments": "Отдел MICE → Отдел контент-маркетинга",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "2. Предоставление информации и материалов",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "3. Согласование бюджета и макетов",
+              "step_involved_departments": "Отдел MICE, Отдел контент-маркетинга",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "4. Приёмка готовых материалов",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "5. Операционное сопровождение MICE-проектов",
+      "linked_goal": 3,
+      "source": "L1 Питуркин, L3 Хаптаханова (Отдел бронирования)",
+      "task_processes": [
+        {
+          "process_name": "Координация бронирования услуг",
+          "process_description": "Взаимодействие с отделом бронирования по заявкам MICE-клиентов, контроль исполнения",
+          "process_trigger": "Подтверждённая MICE-заявка с потребностью в размещении/экскурсиях",
+          "process_result": "Забронированные услуги для MICE-группы",
+          "process_systems": ["САМО-тур", "Bitrix24", "Outlook"],
+          "interactions_from_L3": [
+            {
+              "department": "Отдел бронирования",
+              "description": "Взаимодействие с менеджерами MICE по заявкам",
+              "source": "L3 Хаптаханова"
+            }
+          ],
+          "process_steps": [
+            {
+              "step_description": "1. Передача заявки в Отдел бронирования",
+              "step_involved_departments": "Отдел MICE → Отдел бронирования",
+              "step_needs_automation": "Да (автопередача из MICE-заявки)"
+            },
+            {
+              "step_description": "2. Контроль статуса бронирования",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Да (статусы в САМО)"
+            },
+            {
+              "step_description": "3. Получение подтверждений и передача клиенту",
+              "step_involved_departments": "Отдел бронирования → Отдел MICE",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Ведение ключевых MICE-клиентов (Account Management)",
+          "process_description": "Назначение ответственного аккаунт-менеджера, ведение плана развития клиента, регулярные встречи",
+          "process_trigger": "Клиент достигает порога по объёму заказов или стратегической важности",
+          "process_result": "Увеличение LTV клиента, рост повторных заказов",
+          "process_systems": ["Bitrix24 CRM", "Outlook", "Excel"],
+          "interactions_from_L3": [],
+          "process_steps": [
+            {
+              "step_description": "1. Классификация клиентов и назначение аккаунт-менеджера",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Да (автоклассификация по объёмам)"
+            },
+            {
+              "step_description": "2. Создание плана развития клиента (Account Development Plan)",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "3. Регулярные встречи и мониторинг удовлетворённости",
+              "step_involved_departments": "Отдел MICE",
+              "step_needs_automation": "Да (напоминания о встречах)"
+            },
+            {
+              "step_description": "4. Upsell и cross-sell услуг",
+              "step_involved_departments": "Отдел MICE, Отдел продукта",
+              "step_needs_automation": "Да (рекомендации на основе истории)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

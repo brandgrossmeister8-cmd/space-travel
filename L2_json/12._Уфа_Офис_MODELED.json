@@ -1,0 +1,313 @@
+{
+  "source_file": "12. Уфа_Офис_MODELED.json",
+  "level": "L2",
+  "modeling_note": "Данные смоделированы на основе типовых задач региональных офисов, поскольку анкета не получена",
+  "respondent": {
+    "fio": "Моделирование",
+    "department": "Департамент развития взаимодействия с агентствами",
+    "division": "Офис г. Уфа",
+    "position": "Руководитель офиса",
+    "division_size": "4-6 человек (оценка)"
+  },
+  "division_goals": [
+    "Выполнение и перевыполнение плана продаж региона, развитие агентской сети Башкортостана и Приуралья, увеличение лояльности агентств и повышение узнаваемости бренда Space Travel в регионе"
+  ],
+  "division_tasks": [
+    {
+      "task_name": "Развитие агентской сети Башкортостана и Приуралья",
+      "task_processes": [
+        {
+          "process_name": "Привлечение и активизация агентов региона",
+          "process_description": "Анализ агентской базы региона, выявление новых потенциальных партнёров, звонки и встречи с агентами для привлечения к сотрудничеству",
+          "process_trigger": "Необходимость выполнения плана продаж, появление новых агентств в регионе",
+          "process_result": "Расширение агентской базы, увеличение количества бронирований от агентов региона",
+          "process_systems": ["САМО-тур", "Битрикс24", "Outlook", "телефония"],
+          "process_databases": ["База агентов в САМО", "Сайты конкурентов", "2ГИС", "соцсети"],
+          "process_steps_count": "3",
+          "process_steps": [
+            {
+              "step_description": "1. Анализ базы агентов региона, выявление неактивных и потенциальных новых партнёров",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа, Управление по развитию региональных офисов",
+              "step_department_roles": "КАМ анализирует данные, руководитель офиса контролирует и координирует",
+              "step_needs_automation": "да, автоматическая выгрузка статистики по неактивным агентам"
+            },
+            {
+              "step_description": "2. Обзвон и назначение встреч с агентами",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа",
+              "step_department_roles": "КАМ проводит звонки и встречи",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Регистрация новых агентов и сопровождение первых бронирований",
+              "step_delays": "да",
+              "step_errors": "да, возможны задержки в согласовании договоров",
+              "step_involved_departments": "Офис г. Уфа, бухгалтерия, юрист",
+              "step_department_roles": "КАМ регистрирует агента в системе, бухгалтерия оформляет договор",
+              "step_needs_automation": "да, автоматизация регистрации и отправки приветственных писем"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Организация и контроль операционной деятельности",
+      "task_processes": [
+        {
+          "process_name": "Обработка заявок и контроль качества сервиса",
+          "process_description": "Распределение заявок между менеджерами, контроль сроков обработки, качества ответов агентам, работа с возражениями",
+          "process_trigger": "Поступление заявки от агента",
+          "process_result": "Качественно обработанная заявка, довольный агент",
+          "process_systems": ["САМО-тур", "Битрикс24"],
+          "process_databases": ["САМО-тур", "Битрикс24"],
+          "process_steps_count": "4",
+          "process_steps": [
+            {
+              "step_description": "1. Получение и распределение заявки",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа",
+              "step_department_roles": "Руководитель или куратор распределяет заявку менеджеру",
+              "step_needs_automation": "да, автоматическое распределение по загрузке"
+            },
+            {
+              "step_description": "2. Обработка заявки менеджером",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Офис г. Уфа, Группа тарификации, Транспортный отдел",
+              "step_department_roles": "Менеджер обрабатывает заявку, при необходимости запрашивает расчёт",
+              "step_needs_automation": "да, автоматическое проставление сроков оплаты"
+            },
+            {
+              "step_description": "3. Контроль качества ответа и сроков",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Офис г. Уфа",
+              "step_department_roles": "Руководитель проверяет качество обработки",
+              "step_needs_automation": "да, автоматические уведомления о просроченных заявках"
+            },
+            {
+              "step_description": "4. Работа с возражениями и завершение сделки",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Офис г. Уфа, КАМ",
+              "step_department_roles": "Менеджер и КАМ работают с возражениями агента",
+              "step_needs_automation": "нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Продвижение бренда и маркетинговые мероприятия",
+      "task_processes": [
+        {
+          "process_name": "Организация мероприятий для агентов",
+          "process_description": "Планирование и проведение бизнес-завтраков, презентаций новых направлений, road-show для агентов региона",
+          "process_trigger": "Запрос от партнёра, запуск нового направления, плановое мероприятие",
+          "process_result": "Проведённое мероприятие, привлечение новых агентов, повышение лояльности",
+          "process_systems": ["Битрикс24", "Outlook", "Telegram"],
+          "process_databases": ["Контакты агентов", "база партнёров", "опыт прошлых мероприятий"],
+          "process_steps_count": "5",
+          "process_steps": [
+            {
+              "step_description": "1. Согласование формата, даты и бюджета мероприятия",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа, Отдел рекламы, Управление по развитию региональных офисов",
+              "step_department_roles": "Руководитель офиса согласовывает с отделом рекламы и руководством",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Выбор площадки и заключение договоров с подрядчиками",
+              "step_delays": "да",
+              "step_errors": "да, задержки с договорами",
+              "step_involved_departments": "Офис г. Уфа, бухгалтерия, юрист",
+              "step_department_roles": "Руководитель офиса выбирает площадку, юрист проверяет договор",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Приглашение агентов и подтверждение участников",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа, Отдел контента",
+              "step_department_roles": "КАМ приглашает агентов, отдел контента готовит материалы",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "4. Проведение мероприятия",
+              "step_delays": "да",
+              "step_errors": "да, возможны отклонения от тайминга",
+              "step_involved_departments": "Офис г. Уфа",
+              "step_department_roles": "Команда офиса проводит мероприятие",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "5. Сбор обратной связи и закрывающих документов",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Офис г. Уфа, бухгалтерия",
+              "step_department_roles": "КАМ собирает фидбэк, бухгалтерия получает закрывающие документы",
+              "step_needs_automation": "да, автоматический опросник для агентов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Административно-хозяйственная функция офиса",
+      "task_processes": [
+        {
+          "process_name": "Обеспечение работы офиса",
+          "process_description": "Заключение договоров с подрядчиками (аренда, интернет, клининг, вода), закупка канцелярии и оборудования, контроль оплат",
+          "process_trigger": "Необходимость в услугах или товарах для офиса",
+          "process_result": "Стабильная работа офиса, обеспеченность всем необходимым",
+          "process_systems": ["Outlook", "Invoice Tracker", "1С"],
+          "process_databases": ["Контакты поставщиков", "Invoice Tracker"],
+          "process_steps_count": "3",
+          "process_steps": [
+            {
+              "step_description": "1. Поиск поставщика и согласование условий",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа",
+              "step_department_roles": "Руководитель офиса ищет и выбирает поставщика",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Заключение договора и согласование с юристом",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Офис г. Уфа, юрист, бухгалтерия",
+              "step_department_roles": "Руководитель офиса инициирует, юрист проверяет договор",
+              "step_needs_automation": "да, автоматизация согласования договоров"
+            },
+            {
+              "step_description": "3. Оплата и контроль исполнения",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Офис г. Уфа, бухгалтерия",
+              "step_department_roles": "Руководитель заносит в Invoice Tracker, бухгалтерия оплачивает",
+              "step_needs_automation": "да, автоматическое напоминание об оплатах"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Мониторинг рынка и конкурентов",
+      "task_processes": [
+        {
+          "process_name": "Анализ конкурентной среды региона",
+          "process_description": "Отслеживание предложений конкурентов, полётных программ из аэропорта Уфы, ценовой политики",
+          "process_trigger": "Регулярный мониторинг, изменения на рынке",
+          "process_result": "Актуальная информация о рынке, предложения по улучшению продукта",
+          "process_systems": ["Сайты конкурентов", "сайт аэропорта", "туристические порталы"],
+          "process_databases": ["Данные мониторинга", "статистика продаж"],
+          "process_steps_count": "3",
+          "process_steps": [
+            {
+              "step_description": "1. Сбор информации о конкурентах и рынке",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа",
+              "step_department_roles": "КАМ проводит мониторинг",
+              "step_needs_automation": "да, автоматизированный сервис мониторинга цен конкурентов"
+            },
+            {
+              "step_description": "2. Анализ данных и сравнение с нашими предложениями",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа",
+              "step_department_roles": "Руководитель офиса анализирует данные",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "3. Подготовка предложений для отдела продукта и чартерной группы",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа, Отдел продукта, Чартерная группа",
+              "step_department_roles": "Руководитель офиса передаёт информацию в соответствующие отделы",
+              "step_needs_automation": "нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Управление командой офиса",
+      "task_processes": [
+        {
+          "process_name": "Развитие и мотивация сотрудников",
+          "process_description": "Проведение еженедельных собраний, обучение сотрудников, контроль выполнения KPI, работа с мотивацией",
+          "process_trigger": "Регулярная деятельность, выявление проблем",
+          "process_result": "Профессиональная и мотивированная команда",
+          "process_systems": ["Битрикс24", "САМО-тур"],
+          "process_databases": ["Статистика по сотрудникам", "KPI"],
+          "process_steps_count": "3",
+          "process_steps": [
+            {
+              "step_description": "1. Проведение еженедельных собраний с разбором кейсов",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа",
+              "step_department_roles": "Руководитель офиса проводит собрания",
+              "step_needs_automation": "нет"
+            },
+            {
+              "step_description": "2. Контроль KPI и обратная связь сотрудникам",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Офис г. Уфа, HR",
+              "step_department_roles": "Руководитель контролирует показатели",
+              "step_needs_automation": "да, автоматические отчёты по KPI"
+            },
+            {
+              "step_description": "3. Организация обучения и развития сотрудников",
+              "step_delays": "да",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа, HR, Отдел продукта",
+              "step_department_roles": "Руководитель организует обучение, HR координирует",
+              "step_needs_automation": "нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "Координация с соседними офисами",
+      "task_processes": [
+        {
+          "process_name": "Работа в выходные дни совместно с другими офисами",
+          "process_description": "Составление и согласование графика дежурств в выходные и праздничные дни с офисами Казани, Екатеринбурга для обеспечения непрерывного сервиса",
+          "process_trigger": "Планирование графика на месяц",
+          "process_result": "Согласованный график работы, непрерывное обслуживание агентов",
+          "process_systems": ["Google Таблицы", "Битрикс24"],
+          "process_databases": ["График работы офисов"],
+          "process_steps_count": "2",
+          "process_steps": [
+            {
+              "step_description": "1. Составление графика дежурств и согласование с руководителями офисов",
+              "step_delays": "да",
+              "step_errors": "да",
+              "step_involved_departments": "Офис г. Уфа, Офис г. Казань, Офис г. Екатеринбург",
+              "step_department_roles": "Руководители офисов согласовывают график между собой",
+              "step_needs_automation": "да, автоматическое формирование и согласование графиков"
+            },
+            {
+              "step_description": "2. Информирование сотрудников и контроль выполнения",
+              "step_delays": "нет",
+              "step_errors": "нет",
+              "step_involved_departments": "Офис г. Уфа",
+              "step_department_roles": "Руководитель офиса доводит график до сотрудников",
+              "step_needs_automation": "нет"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "date": "2026-02-16",
+    "description": "Иерархия целей L1-L2 Space Travel — СКОРРЕКТИРОВАНО по экспертным рекомендациям",
+    "total_L1_goals": 30,
+    "total_L2_goals": 52,
+    "coverage_rate": "100%",
+    "expert_rating": "9.1/10"
+  },
+  "hierarchy": [
+    {
+      "department_id": "L1-01",
+      "department_name": "Департамент развития взаимодействия с агентствами",
+      "head": "Мурадян О.Ю.",
+      "goals": [
+        {
+          "goal_id": "L1-01-G1",
+          "goal_short": "Выручка +15% (2,875 млрд)",
+          "critical": true,
+          "linked_L2": [
+            {"id": "L2-01", "goal": "План 100%"},
+            {"id": "L2-02", "goal": "+18%, +25 агентов"},
+            {"id": "L2-03", "goal": "+20%, +30 агентов"},
+            {"id": "L2-10", "goal": "40% от ТОП-100"},
+            {"id": "L2-11", "goal": "+200 агентов"},
+            {"id": "L2-37", "goal": "+25%, +30 агентов"}
+          ]
+        },
+        {
+          "goal_id": "L1-01-G2",
+          "goal_short": "ДЗ >30 дней -40%",
+          "critical": false,
+          "linked_L2": [{"id": "L2-10-G2", "goal": "ДЗ ключевых = 0%"}]
+        },
+        {
+          "goal_id": "L1-01-G3",
+          "goal_short": "Качество агентов: доля >1 млн = 40%",
+          "critical": false,
+          "linked_L2": [{"id": "L2-01-G2", "goal": "Доля >1 млн = 35% по регионам"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "department_id": "L1-02",
+      "department_name": "Департамент по операционным доходам",
+      "head": "Баландина О.А.",
+      "goals": [
+        {
+          "goal_id": "L1-02-G1",
+          "goal_short": "Маржинальность +2 п.п. (14%)",
+          "critical": true,
+          "linked_L2": [
+            {"id": "L2-12", "goal": "БВ +2 п.п."},
+            {"id": "L2-13", "goal": "Экзотика +2.5 п.п."},
+            {"id": "L2-14", "goal": "FIT +1.5 п.п."},
+            {"id": "L2-15", "goal": "ЮВА +2 п.п."},
+            {"id": "L2-17", "goal": "Чартеры 92%/95%"}
+          ]
+        },
+        {
+          "goal_id": "L1-02-G2",
+          "goal_short": "Доступность продукта 95%",
+          "critical": false,
+          "linked_L2": [{"id": "L2-16", "goal": "Точность 99%, публикация 2ч"}]
+        },
+        {
+          "goal_id": "L1-02-G3",
+          "goal_short": "Диверсификация: HHI < 0.25",
+          "critical": true,
+          "linked_L2": [{"id": "L2-12-G2", "goal": "3 альтернативы БВ с долей >=3%"}],
+          "added_in_v2": true
+        },
+        {
+          "goal_id": "L1-02-G4",
+          "goal_short": "TTM 30 дней",
+          "critical": true,
+          "linked_L2": [{"id": "L2-13-G2", "goal": "2 направления/год, TTM 45 дней"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "department_id": "L1-03",
+      "department_name": "Департамент MICE и корпоративного обслуживания",
+      "head": "Питуркин С.А.",
+      "goals": [
+        {
+          "goal_id": "L1-03-G1",
+          "goal_short": "Выручка B2B +30% (195 млн)",
+          "critical": true,
+          "linked_L2": [
+            {"id": "L2-18", "goal": "MICE 108 млн, +30 клиентов"},
+            {"id": "L2-19", "goal": "Incoming +25%, +15 партнёров"},
+            {"id": "L2-22", "goal": "BT +30%, +20 клиентов"}
+          ]
+        },
+        {
+          "goal_id": "L1-03-G2",
+          "goal_short": "Затраты -15%",
+          "critical": false,
+          "linked_L2": []
+        }
+      ]
+    },
+    {
+      "department_id": "L1-04",
+      "department_name": "Департамент HR",
+      "head": "Жигалина Ю.А.",
+      "goals": [
+        {
+          "goal_id": "L1-04-G1",
+          "goal_short": "Укомплектованность 95%, текучесть 18%",
+          "critical": true,
+          "linked_L2": []
+        },
+        {
+          "goal_id": "L1-04-G2",
+          "goal_short": "eNPS +30",
+          "critical": false,
+          "linked_L2": []
+        },
+        {
+          "goal_id": "L1-04-G3",
+          "goal_short": "Обучение продукту 100%, аттестация >80%",
+          "critical": true,
+          "linked_L2": [],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "department_id": "L1-05",
+      "department_name": "Операционный департамент",
+      "head": "Преображенская Т.В.",
+      "goals": [
+        {
+          "goal_id": "L1-05-G1",
+          "goal_short": "Конверсия +5 п.п. (30%)",
+          "critical": true,
+          "linked_L2": [
+            {"id": "L2-21", "goal": "Группы 35%"},
+            {"id": "L2-25", "goal": "Бронь 32%"},
+            {"id": "L2-26", "goal": "+5 п.п., чек +10%"}
+          ]
+        },
+        {
+          "goal_id": "L1-05-G2",
+          "goal_short": "SLA 90%",
+          "critical": false,
+          "linked_L2": [
+            {"id": "L2-20", "goal": "Визы 98%, 5 дней"},
+            {"id": "L2-24", "goal": "Выписка 100%, ошибки <0.5%"}
+          ]
+        },
+        {
+          "goal_id": "L1-05-G3",
+          "goal_short": "Допродажи 12%",
+          "critical": true,
+          "linked_L2": [{"id": "L2-23", "goal": "VIP NPS +70, допродажи 20%"}]
+        },
+        {
+          "goal_id": "L1-05-G4",
+          "goal_short": "CES < 3, бронь 24ч",
+          "critical": true,
+          "linked_L2": [
+            {"id": "L2-25-G2", "goal": "Бронь 20ч, уведомления 100%"},
+            {"id": "L2-26-G2", "goal": "CES < 3"}
+          ],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "department_id": "L1-06",
+      "department_name": "Управление клиентского сервиса",
+      "head": "Акопова А.В.",
+      "goals": [
+        {
+          "goal_id": "L1-06-G1",
+          "goal_short": "FCR 75%, время 4ч",
+          "critical": true,
+          "linked_L2": [
+            {"id": "L2-27", "goal": "FCR 75%, CSAT 85%"},
+            {"id": "L2-28", "goal": "Ответ 30 сек, 80% за 1ч"}
+          ]
+        },
+        {
+          "goal_id": "L1-06-G2",
+          "goal_short": "NPS +50",
+          "critical": false,
+          "linked_L2": []
+        },
+        {
+          "goal_id": "L1-06-G3",
+          "goal_short": "Repeat Purchase Rate 35%",
+          "critical": true,
+          "linked_L2": [
+            {"id": "L2-23-G2", "goal": "RPR VIP 50%"},
+            {"id": "L2-27-G2", "goal": "Post-trip 100%, RPR 25%"}
+          ],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "department_id": "L1-07",
+      "department_name": "Департамент IT",
+      "head": "Логвинов Г.А.",
+      "goals": [
+        {
+          "goal_id": "L1-07-G1",
+          "goal_short": "Доступность 99.5%, инциденты -50%",
+          "critical": true,
+          "linked_L2": []
+        },
+        {
+          "goal_id": "L1-07-G2",
+          "goal_short": "0 инцидентов ИБ, 0 штрафов",
+          "critical": true,
+          "linked_L2": []
+        },
+        {
+          "goal_id": "L1-07-G3",
+          "goal_short": "Интеграция партнёра 10 дней",
+          "critical": false,
+          "linked_L2": []
+        },
+        {
+          "goal_id": "L1-07-G4",
+          "goal_short": "Удовлетворённость IT 85%",
+          "critical": false,
+          "linked_L2": []
+        },
+        {
+          "goal_id": "L1-07-G5",
+          "goal_short": "AI 50% запросов, self-service 80%",
+          "critical": true,
+          "linked_L2": [],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "department_id": "L1-08",
+      "department_name": "Финансовый департамент",
+      "head": "Назарикова М.В.",
+      "goals": [
+        {
+          "goal_id": "L1-08-G1",
+          "goal_short": "Ликвидность 1.2, 0 разрывов",
+          "critical": true,
+          "linked_L2": [
+            {"id": "L2-33", "goal": "0 разрывов, CF 95%"},
+            {"id": "L2-34", "goal": "Платежи 100%"},
+            {"id": "L2-35", "goal": "Расчёты 100%, курс <3%"}
+          ]
+        },
+        {
+          "goal_id": "L1-08-G2",
+          "goal_short": "ROS >= 5%",
+          "critical": true,
+          "linked_L2": []
+        },
+        {
+          "goal_id": "L1-08-G3",
+          "goal_short": "Закрытие 5 дней, достоверность 100%",
+          "critical": false,
+          "linked_L2": [
+            {"id": "L2-32", "goal": "5 дней, 0 ошибок"},
+            {"id": "L2-36", "goal": "100%, автоматизация АБ"}
+          ]
+        },
+        {
+          "goal_id": "L1-08-G4",
+          "goal_short": "Хеджирование: курс <3%",
+          "critical": false,
+          "linked_L2": [{"id": "L2-33-G2", "goal": "Хеджирование 70%"}],
+          "added_in_v2": true
+        }
+      ]
+    },
+    {
+      "department_id": "L1-09",
+      "department_name": "Департамент маркетинга и рекламы",
+      "head": "Вакансия",
+      "goals": [
+        {
+          "goal_id": "L1-09-G1",
+          "goal_short": "Узнаваемость B2B 80%",
+          "critical": false,
+          "linked_L2": [{"id": "L2-30", "goal": "Охват 50K, конверсия 3%"}]
+        },
+        {
+          "goal_id": "L1-09-G2",
+          "goal_short": "Партнёрские бюджеты +25% (37.5 млн)",
+          "critical": true,
+          "linked_L2": [{"id": "L2-29", "goal": "25 млн, 30+ соглашений"}]
+        },
+        {
+          "goal_id": "L1-09-G3",
+          "goal_short": "RoiStat 100% каналов",
+          "critical": false,
+          "linked_L2": [{"id": "L2-31", "goal": "RoiStat 100%, CPL -20%"}]
+        },
+        {
+          "goal_id": "L1-09-G4",
+          "goal_short": "Прямые онлайн-продажи 15%, CAC <3000",
+          "critical": true,
+          "linked_L2": [
+            {"id": "L2-30-G2", "goal": "Органический трафик +50%"},
+            {"id": "L2-31-G2", "goal": "Прямые 10%, CAC <3500"}
+          ],
+          "added_in_v2": true
+        }
+      ]
+    }
+  ],
+  "summary_v2": {
+    "total_L1_goals": 30,
+    "critical_L1_goals": 14,
+    "new_goals_added": 8,
+    "total_L2_goals": 52,
+    "new_L2_goals_added": 15,
+    "coverage": "100% (все L1 имеют L2 или обоснование)",
+    "categories_balanced": {
+      "revenue": 5,
+      "profitability": 3,
+      "customer_experience": 5,
+      "risk_management": 3,
+      "efficiency": 6,
+      "hr": 3,
+      "technology": 3,
+      "digital": 2
+    }
+  },
+  "changes_from_v1": [
+    {
+      "area": "Клиентский опыт",
+      "added": ["CES < 3", "Repeat Purchase Rate 35%", "Проактивные уведомления 100%"],
+      "impact": "От реактивного к проактивному сервису, +15% LTV"
+    },
+    {
+      "area": "Риск-менеджмент",
+      "added": ["Диверсификация HHI < 0.25", "Хеджирование валюты 70%"],
+      "impact": "Снижение зависимости от одного направления и валютных колебаний"
+    },
+    {
+      "area": "Digital-трансформация",
+      "added": ["Прямые онлайн-продажи 15%", "AI-автоматизация 50%"],
+      "impact": "+3 п.п. маржи, -20% ФОТ операций"
+    },
+    {
+      "area": "Скорость вывода продукта",
+      "added": ["TTM 30 дней"],
+      "impact": "First-mover advantage при открытии новых рынков"
+    },
+    {
+      "area": "Качество vs количество",
+      "added": ["Качество агентской базы (доля >1 млн = 40%)", "Обучение продукту 100%"],
+      "impact": "Фокус на продуктивных агентах и компетенциях"
+    }
+  ]
+}

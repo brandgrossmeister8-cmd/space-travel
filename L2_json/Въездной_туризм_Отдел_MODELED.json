@@ -1,0 +1,394 @@
+{
+  "source_file": "MODELED_на_основе_L3_Баландина.xlsx",
+  "level": "L2",
+  "modeling_note": "Смоделировано на основе данных L3 Баландина (Менеджер отдела въездного туризма)",
+  "respondent": {
+    "fio": "Руководитель Отдела въездного туризма (моделирование)",
+    "department": "Департамент въездного туризма, MICE и корпоративного обслуживания",
+    "division": "Отдел въездного туризма",
+    "position": "Руководитель Отдела въездного туризма",
+    "division_size": "2"
+  },
+  "division_goals": [
+    {
+      "goal_number": 1,
+      "goal_text": "Увеличить выручку въездного туризма на 25% к 31.12.2026 через развитие партнёрской сети в ОАЭ, Индии и расширение продуктовой линейки по России",
+      "linked_department_goal": "Увеличить доход компании в сегменте B2B (MICE, бизнес-тревел, B2C)",
+      "kpi": [
+        {"name": "Выручка въездного туризма", "target": "+25%"},
+        {"name": "Количество партнёров-агентов", "target": "+15"}
+      ]
+    },
+    {
+      "goal_number": 2,
+      "goal_text": "Обеспечить маржинальность въездных туров не менее 18% к 31.12.2026 через оптимизацию supplier mix и прямые контракты с отелями",
+      "linked_department_goal": "Увеличить доход компании в сегменте B2B (MICE, бизнес-тревел, B2C)",
+      "kpi": [
+        {"name": "Маржинальность направления", "target": ">=18%"},
+        {"name": "Доля прямых контрактов", "target": ">60%"}
+      ]
+    }
+  ],
+  "division_tasks": [
+    {
+      "task_name": "1. Обработка запросов и составление смет для въездного туризма (индивидуальные и групповые)",
+      "task_processes": [
+        {
+          "process_name": "Составление сметы для индивидуального запроса",
+          "process_description": "Расчёт стоимости туристических услуг для иностранных гостей: проживание, трансферы, экскурсии, билеты на мероприятия. Работа с базой тарифов и прямыми поставщиками.",
+          "process_trigger": "Поступление запроса от партнёра (Al Rais, Al Khalidia и др.) или напрямую от клиента",
+          "process_result": "Готовая смета с детализацией услуг и стоимости",
+          "process_systems": [
+            "САМО-тур",
+            "САМО-Incoming",
+            "Outlook",
+            "Excel"
+          ],
+          "process_databases": [
+            "База данных тарифов (соглашения с отелями, транспортными компаниями)",
+            "База контактов поставщиков",
+            "Островок (для проверки цен)"
+          ],
+          "process_steps_count": "5 этапов",
+          "process_steps": [
+            {
+              "step_description": "1. Получение и анализ запроса",
+              "step_delays": "Редко",
+              "step_errors": "Неполные данные от клиента",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Уточнение деталей запроса (даты, количество гостей, пожелания)",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "2. Запрос тарифов у поставщиков",
+              "step_delays": "Да, долгое ожидание ответа от поставщиков",
+              "step_errors": "Устаревшие тарифы в базе",
+              "step_involved_departments": "Отдел въездного туризма, Транспортный отдел (для авиа/РЖД)",
+              "step_department_roles": "Отправка запросов, сбор актуальных цен",
+              "step_needs_automation": "Да (автоматическое обновление тарифов от ключевых поставщиков)"
+            },
+            {
+              "step_description": "3. Расчёт сметы и формирование предложения",
+              "step_delays": "Нет",
+              "step_errors": "Ошибки в расчётах при ручном вводе",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Ввод данных в Excel/САМО, расчёт маржи",
+              "step_needs_automation": "Да (калькулятор туров с автоподстановкой тарифов)"
+            },
+            {
+              "step_description": "4. Согласование с клиентом",
+              "step_delays": "Да, зависит от клиента",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Отправка предложения, ответы на вопросы",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "5. Корректировка по запросу клиента",
+              "step_delays": "Да, повторный расчёт",
+              "step_errors": "Ошибки при корректировке",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Внесение изменений в смету",
+              "step_needs_automation": "Да (версионность смет)"
+            }
+          ]
+        },
+        {
+          "process_name": "Составление сметы для группового запроса",
+          "process_description": "Расчёт стоимости для групп туристов с учётом групповых тарифов, координации логистики и программы",
+          "process_trigger": "Поступление группового запроса от партнёра",
+          "process_result": "Групповая смета с программой тура",
+          "process_systems": [
+            "САМО-тур",
+            "САМО-Incoming",
+            "Outlook",
+            "Excel"
+          ],
+          "process_databases": [
+            "База групповых тарифов",
+            "База поставщиков"
+          ],
+          "process_steps_count": "4 этапа",
+          "process_steps": [
+            {
+              "step_description": "1. Сбор информации и уточнение деталей",
+              "step_delays": "Да, не дают информацию вовремя",
+              "step_errors": "Неполные данные",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Запрос полной информации у партнёра",
+              "step_needs_automation": "Да (чек-лист обязательных данных)"
+            },
+            {
+              "step_description": "2. Запрос групповых тарифов",
+              "step_delays": "Да, ожидание ответа",
+              "step_errors": "Отсутствие групповых тарифов с некоторыми отелями",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Переговоры с отелями о групповых условиях",
+              "step_needs_automation": "Частично"
+            },
+            {
+              "step_description": "3. Расчёт сметы и программы",
+              "step_delays": "Нет",
+              "step_errors": "Ошибки в логистике (тайминг)",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Подготовка детальной программы с таймингом",
+              "step_needs_automation": "Да (шаблоны программ)"
+            },
+            {
+              "step_description": "4. Согласование и финализация",
+              "step_delays": "Да",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Финальное согласование с клиентом",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "2. Бронирование услуг и документооборот",
+      "task_processes": [
+        {
+          "process_name": "Бронирование услуг у поставщиков",
+          "process_description": "Бронирование отелей, транспорта, гидов, билетов на мероприятия после подтверждения заказа клиентом",
+          "process_trigger": "Подтверждение заказа и получение предоплаты",
+          "process_result": "Подтверждённые брони от всех поставщиков",
+          "process_systems": [
+            "Outlook",
+            "САМО-тур",
+            "САМО-Incoming",
+            "Сайты поставщиков"
+          ],
+          "process_databases": [
+            "База контактов поставщиков",
+            "Шаблон ваучера",
+            "База гидов"
+          ],
+          "process_steps_count": "4 этапа",
+          "process_steps": [
+            {
+              "step_description": "1. Отправка запросов на бронирование поставщикам",
+              "step_delays": "Да, долгое ожидание ответа",
+              "step_errors": "Ошибки в датах/ФИО",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Формирование запросов на бронирование",
+              "step_needs_automation": "Да (автоматическое формирование запросов из заявки)"
+            },
+            {
+              "step_description": "2. Получение подтверждений и проверка",
+              "step_delays": "Да",
+              "step_errors": "Расхождения в деталях брони",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Сверка подтверждений с заявкой",
+              "step_needs_automation": "Частично"
+            },
+            {
+              "step_description": "3. Оформление ваучеров",
+              "step_delays": "Нет",
+              "step_errors": "Ошибки в ваучерах",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Заполнение шаблонов ваучеров",
+              "step_needs_automation": "Да (автогенерация ваучеров из САМО)"
+            },
+            {
+              "step_description": "4. Отправка документов клиенту",
+              "step_delays": "Нет",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Отправка ваучеров и программы клиенту",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        },
+        {
+          "process_name": "Заведение заявки в САМО-тур / САМО-Incoming",
+          "process_description": "Внесение всех данных по заявке в систему учёта для финансового контроля и отчётности",
+          "process_trigger": "Подтверждение заказа",
+          "process_result": "Заявка в системе с корректными суммами",
+          "process_systems": [
+            "САМО-тур",
+            "САМО-Incoming"
+          ],
+          "process_databases": [
+            "Шаблон заполнения заявок"
+          ],
+          "process_steps_count": "3 этапа",
+          "process_steps": [
+            {
+              "step_description": "1. Создание заявки в системе",
+              "step_delays": "Нет",
+              "step_errors": "Неверно проставленные суммы",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Ввод данных по заявке",
+              "step_needs_automation": "Да (интеграция со сметой)"
+            },
+            {
+              "step_description": "2. Добавление услуг и расходов",
+              "step_delays": "Да, постоплата услуг требует повторного открытия заявки",
+              "step_errors": "Пропуск услуг",
+              "step_involved_departments": "Отдел въездного туризма, IT (для открытия закрытой заявки)",
+              "step_department_roles": "Внесение всех услуг в заявку",
+              "step_needs_automation": "Да (автоматическое добавление из бронирований)"
+            },
+            {
+              "step_description": "3. Проверка и закрытие заявки",
+              "step_delays": "Нет",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Финальная проверка и закрытие",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "3. Финансовые операции и взаимодействие с бухгалтерией",
+      "task_processes": [
+        {
+          "process_name": "Выставление счетов клиентам",
+          "process_description": "Запрос на выставление счетов от Space Travel (РФ), Al Khalidia (ОАЭ) или самостоятельное выставление от ASM Tourism",
+          "process_trigger": "Согласование сметы с клиентом",
+          "process_result": "Выставленный и оплаченный счёт",
+          "process_systems": [
+            "Outlook",
+            "САМО-Incoming",
+            "Invoice Tracker",
+            "Шаблоны счетов"
+          ],
+          "process_databases": [
+            "Реквизиты компаний"
+          ],
+          "process_steps_count": "3 этапа",
+          "process_steps": [
+            {
+              "step_description": "1. Формирование запроса на счёт или самостоятельное выставление",
+              "step_delays": "Нет",
+              "step_errors": "Счёт на неправильную сумму, ошибки в реквизитах",
+              "step_involved_departments": "Отдел въездного туризма, Бухгалтерия (для РФ счетов)",
+              "step_department_roles": "Подготовка данных для счёта",
+              "step_needs_automation": "Да (автогенерация счетов из заявки)"
+            },
+            {
+              "step_description": "2. Отправка счёта клиенту",
+              "step_delays": "Нет",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Отправка счёта, контроль получения",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "3. Контроль оплаты",
+              "step_delays": "Да, задержки оплаты от клиентов",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма, Финансовый отдел",
+              "step_department_roles": "Мониторинг поступления, напоминания клиенту",
+              "step_needs_automation": "Да (автоматические напоминания об оплате)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "4. Сопровождение туристов и решение операционных вопросов",
+      "task_processes": [
+        {
+          "process_name": "Операционное сопровождение во время тура",
+          "process_description": "Координация с гидами и поставщиками во время заезда гостей, оперативное решение возникающих вопросов",
+          "process_trigger": "Начало тура (дата заезда)",
+          "process_result": "Успешно проведённый тур, довольные гости",
+          "process_systems": [
+            "Мессенджеры (WhatsApp, Telegram)",
+            "Телефон"
+          ],
+          "process_databases": [
+            "Контакты гидов и поставщиков",
+            "Программа тура"
+          ],
+          "process_steps_count": "3 этапа",
+          "process_steps": [
+            {
+              "step_description": "1. Подтверждение готовности всех поставщиков накануне",
+              "step_delays": "Редко",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Связь с гидами, отелями, транспортом",
+              "step_needs_automation": "Да (автоматические напоминания поставщикам)"
+            },
+            {
+              "step_description": "2. Мониторинг хода тура",
+              "step_delays": "Нет",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Контакт с гостями/гидом, готовность к решению проблем",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "3. Решение нештатных ситуаций",
+              "step_delays": "Зависит от ситуации",
+              "step_errors": "Возможны",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Оперативное решение проблем (замена гида, изменение программы)",
+              "step_needs_automation": "Нет"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "task_name": "5. Работа с поставщиками и договорная база",
+      "task_processes": [
+        {
+          "process_name": "Заключение договоров с поставщиками",
+          "process_description": "Поиск новых поставщиков, согласование условий, заключение договоров для расширения базы и улучшения условий",
+          "process_trigger": "Потребность в новом поставщике или истечение срока действующего договора",
+          "process_result": "Подписанный договор с выгодными условиями",
+          "process_systems": [
+            "Outlook",
+            "Word"
+          ],
+          "process_databases": [
+            "Шаблоны договоров",
+            "Реквизиты компании"
+          ],
+          "process_steps_count": "4 этапа",
+          "process_steps": [
+            {
+              "step_description": "1. Поиск и первичная коммуникация с поставщиком",
+              "step_delays": "Нет",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Поиск на выставках, по рекомендациям, в интернете",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "2. Согласование условий сотрудничества",
+              "step_delays": "Да, длительные переговоры",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Переговоры о тарифах, условиях оплаты",
+              "step_needs_automation": "Нет"
+            },
+            {
+              "step_description": "3. Согласование договора с юристом и финансистами",
+              "step_delays": "Да, зависимость от других отделов",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма, Юрист, Финансовый отдел",
+              "step_department_roles": "Проверка договора, внесение правок",
+              "step_needs_automation": "Частично (шаблоны договоров)"
+            },
+            {
+              "step_description": "4. Подписание и архивирование договора",
+              "step_delays": "Нет",
+              "step_errors": "Нет",
+              "step_involved_departments": "Отдел въездного туризма",
+              "step_department_roles": "Организация подписания, хранение",
+              "step_needs_automation": "Да (электронный архив договоров)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
