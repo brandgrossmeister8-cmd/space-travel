@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "files_processed": "150/150",
+    "total_tasks": 1533,
+    "total_hours_raw": 51062.0,
+    "total_hours_clean": 30593.0,
+    "fte_equivalent": 173.8,
+    "outliers_count": 9,
+    "outliers_hours_removed": 20469.0
+  },
+  "by_routine_level": {
+    "Высокий": {
+      "count": 439,
+      "hours": 10432.0
+    },
+    "Средний": {
+      "count": 559,
+      "hours": 9075.0
+    },
+    "Очень высокий": {
+      "count": 245,
+      "hours": 7445.0
+    },
+    "Низкий": {
+      "count": 288,
+      "hours": 3639.0
+    },
+    "Bысокий": {
+      "count": 1,
+      "hours": 2.0
+    },
+    "Не указано": {
+      "count": 1,
+      "hours": 0.0
+    }
+  },
+  "by_task_type": {
+    "Рутинная задача": {
+      "count": 1369,
+      "hours": 26134.0
+    },
+    "Проблемная задача": {
+      "count": 163,
+      "hours": 4450.0
+    },
+    "Не указано": {
+      "count": 1,
+      "hours": 10.0
+    }
+  },
+  "by_department": {
+    "Операционный департамент": {
+      "count": 514,
+      "hours": 13201.0,
+      "employee_count": 65
+    },
+    "Департамент по управлению операционными доходами": {
+      "count": 226,
+      "hours": 3587.0,
+      "employee_count": 15
+    },
+    "Департамент маркетинга и рекламы": {
+      "count": 237,
+      "hours": 3403.0,
+      "employee_count": 11
+    },
+    "Департамент развития взаимодействия с агентствами": {
+      "count": 176,
+      "hours": 3234.0,
+      "employee_count": 16
+    },
+    "Департамент финансов": {
+      "count": 100,
+      "hours": 2612.0,
+      "employee_count": 14
+    },
+    "Департамент информационных технологий": {
+      "count": 42,
+      "hours": 2200.0,
+      "employee_count": 5
+    },
+    "Управление клиентского сервиса": {
+      "count": 116,
+      "hours": 1146.0,
+      "employee_count": 13
+    },
+    "Департамент HR": {
+      "count": 30,
+      "hours": 449.0,
+      "employee_count": 4
+    },
+    "Департамент въездного туризма, MICE и корпоративного обслуживания": {
+      "count": 42,
+      "hours": 449.0,
+      "employee_count": 4
+    },
+    "Сотрудники без отделов": {
+      "count": 50,
+      "hours": 311.0,
+      "employee_count": 3
+    }
+  },
+  "automation_potential": {
+    "by_level": {
+      "Высокий": {
+        "hours": 10432.0,
+        "tasks": 439,
+        "coefficient": 0.6,
+        "potential_savings": 6259.0
+      },
+      "Очень высокий": {
+        "hours": 7445.0,
+        "tasks": 245,
+        "coefficient": 0.8,
+        "potential_savings": 5956.0
+      },
+      "Средний": {
+        "hours": 9075.0,
+        "tasks": 559,
+        "coefficient": 0.3,
+        "potential_savings": 2722.0
+      },
+      "Низкий": {
+        "hours": 3639.0,
+        "tasks": 288,
+        "coefficient": 0.1,
+        "potential_savings": 364.0
+      },
+      "Не указано": {
+        "hours": 0.0,
+        "tasks": 1,
+        "coefficient": 0.2,
+        "potential_savings": 0.0
+      },
+      "Bысокий": {
+        "hours": 2.0,
+        "tasks": 1,
+        "coefficient": 0.2,
+        "potential_savings": 0.0
+      }
+    },
+    "total_high_routine_hours": 17877.0,
+    "total_potential_savings_hours": 15302.0,
+    "total_potential_savings_fte": 86.9,
+    "annual_savings_rub": 91812243.0
+  },
+  "outliers": [
+    {
+      "employee": "Богатырева",
+      "task": "Настраиваю интеграцию с новым партнером",
+      "raw_hours": 917.0,
+      "capped_hours": 200,
+      "department": "Департамент по управлению операционными доходами"
+    },
+    {
+      "employee": "Богатырева",
+      "task": "Размещаю новый тур на сайте",
+      "raw_hours": 352.0,
+      "capped_hours": 200,
+      "department": "Департамент по управлению операционными доходами"
+    },
+    {
+      "employee": "Богатырева",
+      "task": "Рассчитываю и формирую туры с поставщиками без интеграции",
+      "raw_hours": 280.0,
+      "capped_hours": 200,
+      "department": "Департамент по управлению операционными доходами"
+    },
+    {
+      "employee": "Богатырева",
+      "task": "Завожу отель на прямом контракте",
+      "raw_hours": 280.0,
+      "capped_hours": 200,
+      "department": "Департамент по управлению операционными доходами"
+    },
+    {
+      "employee": "Коломбет",
+      "task": "Настраиваю новые интеграции с системами партнеров (новая инт",
+      "raw_hours": 7500.0,
+      "capped_hours": 200,
+      "department": "Департамент информационных технологий"
+    },
+    {
+      "employee": "Коломбет",
+      "task": "Настраиваю новые интеграции с системами партнеров (уже сущес",
+      "raw_hours": 2500.0,
+      "capped_hours": 200,
+      "department": "Департамент информационных технологий"
+    },
+    {
+      "employee": "Коломбет",
+      "task": "Настраиваю новые интеграции с системами партнеров (новая инт",
+      "raw_hours": 10000.0,
+      "capped_hours": 200,
+      "department": "Департамент информационных технологий"
+    },
+    {
+      "employee": "Локтионова",
+      "task": "веду коммуникацию с агентами по телефону",
+      "raw_hours": 220.0,
+      "capped_hours": 200,
+      "department": "Управление клиентского сервиса"
+    },
+    {
+      "employee": "Локтионова",
+      "task": "распределяю письма на почте по отделам",
+      "raw_hours": 220.0,
+      "capped_hours": 200,
+      "department": "Управление клиентского сервиса"
+    }
+  ]
+}
