@@ -108,16 +108,35 @@ def is_heading(paragraph):
 
 
 def remove_extra_spaces(text):
-    """Удалить лишние пробелы."""
+    """Удалить лишние пробелы, оставив ровно 1 пробел между словами."""
     if not text:
         return text
-    text = re.sub(r' +', ' ', text)
+    # Заменить все виды пробелов (включая неразрывные) на обычные
+    text = re.sub(r'[\u00A0\u2000-\u200B\u202F\u205F\u3000]+', ' ', text)
+    # Заменить множественные пробелы на один
+    text = re.sub(r' {2,}', ' ', text)
+    # Убрать пробелы перед знаками препинания
+    text = re.sub(r' +([.,;:!?)])', r'\1', text)
+    # Добавить пробел после знаков препинания, если его нет
+    text = re.sub(r'([.,;:!?])([А-Яа-яA-Za-z0-9])', r'\1 \2', text)
     return text.strip()
+
+
+def is_bullet_list(paragraph):
+    """Проверить, является ли абзац элементом маркированного списка."""
+    text = paragraph.text.strip()
+    # Проверка на маркеры списка: -, •, *, числа с точкой
+    if text.startswith(('-', '•', '*', '–', '—')):
+        return True
+    if re.match(r'^\d+[.)]\s', text):
+        return True
+    return False
 
 
 def format_paragraph(paragraph, font_name='Tahoma', font_size=9):
     """Форматировать абзац."""
     is_head = is_heading(paragraph)
+    is_bullet = is_bullet_list(paragraph)
 
     for run in paragraph.runs:
         if run.text:
@@ -130,9 +149,14 @@ def format_paragraph(paragraph, font_name='Tahoma', font_size=9):
     paragraph.paragraph_format.line_spacing = 1.0
     paragraph.paragraph_format.space_before = Pt(3) if is_head else Pt(0)
     paragraph.paragraph_format.space_after = Pt(6) if is_head else Pt(2)
-    paragraph.paragraph_format.left_indent = Pt(0)
     paragraph.paragraph_format.right_indent = Pt(0)
     paragraph.paragraph_format.first_line_indent = Pt(0)
+
+    # Для маркированных списков добавить отступ слева
+    if is_bullet:
+        paragraph.paragraph_format.left_indent = Pt(18)  # ~6 мм отступ
+    else:
+        paragraph.paragraph_format.left_indent = Pt(0)
 
 
 def set_cell_shading(cell, color_hex):
