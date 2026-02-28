@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Схема связей: 23 ТЗ ↔ 62 AUTO-точки</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 { color: #1a365d; text-align: center; }
+        h2 { color: #2c5282; border-bottom: 2px solid #2c5282; padding-bottom: 10px; }
+        .diagram-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #2c5282;
+            color: white;
+        }
+        tr:nth-child(even) { background: #f7fafc; }
+        .wave1 { background: #c6f6d5 !important; }
+        .wave2 { background: #fed7aa !important; }
+        .wave3 { background: #feebc8 !important; }
+        .wave4 { background: #e9d8fd !important; }
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .summary-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .summary-card h3 { margin: 0; color: #2c5282; font-size: 2em; }
+        .summary-card p { margin: 5px 0 0; color: #718096; }
+    </style>
+</head>
+<body>
+    <h1>Схема связей: 23 ТЗ ↔ 62 точки автоматизации</h1>
+
+    <div class="summary">
+        <div class="summary-card">
+            <h3>23</h3>
+            <p>Технических заданий</p>
+        </div>
+        <div class="summary-card">
+            <h3>62</h3>
+            <p>Точек автоматизации</p>
+        </div>
+        <div class="summary-card">
+            <h3>1 358</h3>
+            <p>ч/мес экономии</p>
+        </div>
+        <div class="summary-card">
+            <h3>14.8 млн</h3>
+            <p>₽/год экономии</p>
+        </div>
+    </div>
+
+    <h2>Диаграмма по волнам внедрения</h2>
+    <div class="diagram-container">
+        <div class="mermaid">
+flowchart TB
+    subgraph W0["🔧 ВОЛНА 0 — Пререквизиты"]
+        P01["P-01<br/>Аудит API САМО"]
+        P02["P-02<br/>Закупка Power BI"]
+        P04["P-04<br/>Конфигурация Б24"]
+        P05["P-05<br/>Подключение 1С"]
+    end
+
+    subgraph W1["🚀 ВОЛНА 1 — Quick Wins (8 ТЗ, 712 ч/мес)"]
+        TZ01["TZ-01<br/>САМО ↔ Б24<br/>93 ч/мес"]
+        TZ02["TZ-02<br/>Шаблоны<br/>90 ч/мес"]
+        TZ03["TZ-03<br/>САМО алерты<br/>50 ч/мес"]
+        TZ04["TZ-04<br/>Маршрутизация<br/>147 ч/мес"]
+        TZ05["TZ-05<br/>ИИ-контент<br/>39 ч/мес"]
+        TZ06["TZ-06<br/>Email САМО<br/>37 ч/мес"]
+        TZ07["TZ-07<br/>BI Power BI<br/>182 ч/мес"]
+        TZ08["TZ-08<br/>Cash Flow<br/>70 ч/мес"]
+    end
+
+    subgraph W2["⚠️ ВОЛНА 2 — Критические (4 ТЗ, 132 ч/мес)"]
+        TZ09["TZ-09<br/>Тайм-лимиты<br/>40 ч/мес"]
+        TZ10["TZ-10<br/>Документы<br/>28 ч/мес"]
+        TZ11["TZ-11<br/>Парсинг цен<br/>56 ч/мес"]
+        TZ22["TZ-22<br/>Регуляторный<br/>8 ч/мес"]
+    end
+
+    subgraph W3["🎯 ВОЛНА 3 — Стратегические (2 ТЗ, 191 ч/мес)"]
+        TZ12["TZ-12<br/>GDS → 1С<br/>81 ч/мес"]
+        TZ13["TZ-13<br/>Динам. цены<br/>110 ч/мес"]
+    end
+
+    subgraph W4["📈 ВОЛНА 4 — Развитие (9 ТЗ, 323 ч/мес)"]
+        TZ14["TZ-14<br/>Авиа API<br/>49 ч/мес"]
+        TZ15["TZ-15<br/>AI-помощники<br/>81 ч/мес"]
+        TZ16["TZ-16<br/>RoiStat<br/>33 ч/мес"]
+        TZ17["TZ-17<br/>Матчинг отелей<br/>50 ч/мес"]
+        TZ18["TZ-18<br/>HR-платформа<br/>38 ч/мес"]
+        TZ19["TZ-19<br/>Мессенджеры<br/>28 ч/мес"]
+        TZ20["TZ-20<br/>Тендеры/DMC<br/>20 ч/мес"]
+        TZ21["TZ-21<br/>Франчайзинг<br/>17 ч/мес"]
+        TZ23["TZ-23<br/>IT-мониторинг<br/>7 ч/мес"]
+    end
+
+    P01 --> TZ01
+    P01 --> TZ03
+    P01 --> TZ06
+    P04 --> TZ01
+    P04 --> TZ02
+    P04 --> TZ04
+    P02 --> TZ07
+    P05 --> TZ07
+    P02 --> TZ08
+    P05 --> TZ08
+
+    TZ01 --> TZ06
+    TZ07 --> TZ08
+    TZ07 --> TZ09
+    TZ11 --> TZ13
+    TZ02 --> TZ15
+    TZ04 --> TZ15
+    TZ02 --> TZ20
+    TZ04 --> TZ19
+    TZ01 --> TZ21
+        </div>
+    </div>
+
+    <h2>Граф зависимостей между ТЗ</h2>
+    <div class="diagram-container">
+        <div class="mermaid">
+flowchart LR
+    subgraph prereq["Пререквизиты"]
+        P01["P-01 САМО API"]
+        P02["P-02 Power BI"]
+        P04["P-04 Битрикс24"]
+        P05["P-05 1С"]
+    end
+
+    subgraph wave1["Волна 1"]
+        TZ01["TZ-01"]
+        TZ02["TZ-02"]
+        TZ03["TZ-03"]
+        TZ04["TZ-04"]
+        TZ05["TZ-05"]
+        TZ06["TZ-06"]
+        TZ07["TZ-07"]
+        TZ08["TZ-08"]
+    end
+
+    subgraph wave2["Волна 2"]
+        TZ09["TZ-09"]
+        TZ10["TZ-10"]
+        TZ11["TZ-11"]
+        TZ22["TZ-22"]
+    end
+
+    subgraph wave3["Волна 3"]
+        TZ12["TZ-12"]
+        TZ13["TZ-13"]
+    end
+
+    subgraph wave4["Волна 4"]
+        TZ14["TZ-14"]
+        TZ15["TZ-15"]
+        TZ16["TZ-16"]
+        TZ17["TZ-17"]
+        TZ18["TZ-18"]
+        TZ19["TZ-19"]
+        TZ20["TZ-20"]
+        TZ21["TZ-21"]
+        TZ23["TZ-23"]
+    end
+
+    P01 --> TZ01
+    P01 --> TZ03
+    P01 --> TZ06
+    P01 --> TZ17
+    P04 --> TZ01
+    P04 --> TZ02
+    P04 --> TZ04
+    P04 --> TZ10
+    P04 --> TZ15
+    P02 --> TZ07
+    P02 --> TZ08
+    P02 --> TZ09
+    P05 --> TZ07
+    P05 --> TZ08
+    P05 --> TZ12
+
+    TZ01 --> TZ06
+    TZ01 --> TZ21
+    TZ07 --> TZ08
+    TZ07 --> TZ09
+    TZ07 --> TZ12
+    TZ11 --> TZ13
+    TZ02 --> TZ15
+    TZ02 --> TZ20
+    TZ04 --> TZ15
+    TZ04 --> TZ19
+        </div>
+    </div>
+
+    <h2>Таблица связей: ТЗ → AUTO-точки</h2>
+    <table>
+        <tr>
+            <th>Волна</th>
+            <th>ТЗ</th>
+            <th>AUTO-точки</th>
+            <th>Кол-во</th>
+            <th>Экономия</th>
+        </tr>
+        <tr class="wave1"><td>1</td><td>TZ-01</td><td>AUTO-035, 039, 043, 044</td><td>4</td><td>93 ч/мес</td></tr>
+        <tr class="wave1"><td>1</td><td>TZ-02</td><td>AUTO-013, 025, 027, 036</td><td>4</td><td>90 ч/мес</td></tr>
+        <tr class="wave1"><td>1</td><td>TZ-03</td><td>AUTO-016, 017, 034</td><td>3</td><td>50 ч/мес</td></tr>
+        <tr class="wave1"><td>1</td><td>TZ-04</td><td>AUTO-009, 021, 033, 040, 041, 045, DASH-16</td><td>7</td><td>147 ч/мес</td></tr>
+        <tr class="wave1"><td>1</td><td>TZ-05</td><td>AUTO-026, 048</td><td>2</td><td>39 ч/мес</td></tr>
+        <tr class="wave1"><td>1</td><td>TZ-06</td><td>AUTO-011, 028</td><td>2</td><td>37 ч/мес</td></tr>
+        <tr class="wave1"><td>1</td><td>TZ-07</td><td>AUTO-006, 029, 031, DASH-01, 03, 04, 08, 09, 13, 14</td><td>10</td><td>182 ч/мес</td></tr>
+        <tr class="wave1"><td>1</td><td>TZ-08</td><td>AUTO-014, 032, DASH-07</td><td>3</td><td>70 ч/мес</td></tr>
+        <tr class="wave2"><td>2</td><td>TZ-09</td><td>AUTO-001, DASH-02</td><td>2</td><td>40 ч/мес</td></tr>
+        <tr class="wave2"><td>2</td><td>TZ-10</td><td>AUTO-002, DASH-12</td><td>2</td><td>28 ч/мес</td></tr>
+        <tr class="wave2"><td>2</td><td>TZ-11</td><td>AUTO-018, DASH-05</td><td>2</td><td>56 ч/мес</td></tr>
+        <tr class="wave2"><td>2</td><td>TZ-22</td><td>AUTO-047</td><td>1</td><td>8 ч/мес</td></tr>
+        <tr class="wave3"><td>3</td><td>TZ-12</td><td>AUTO-005</td><td>1</td><td>81 ч/мес</td></tr>
+        <tr class="wave3"><td>3</td><td>TZ-13</td><td>AUTO-003, DASH-05</td><td>2</td><td>110 ч/мес</td></tr>
+        <tr class="wave4"><td>4</td><td>TZ-14</td><td>AUTO-010, 019, 020</td><td>3</td><td>49 ч/мес</td></tr>
+        <tr class="wave4"><td>4</td><td>TZ-15</td><td>AUTO-004, 007, 008</td><td>3</td><td>81 ч/мес</td></tr>
+        <tr class="wave4"><td>4</td><td>TZ-16</td><td>AUTO-012, DASH-06</td><td>2</td><td>33 ч/мес</td></tr>
+        <tr class="wave4"><td>4</td><td>TZ-17</td><td>AUTO-015</td><td>1</td><td>50 ч/мес</td></tr>
+        <tr class="wave4"><td>4</td><td>TZ-18</td><td>AUTO-023, 037, 038, DASH-11</td><td>4</td><td>38 ч/мес</td></tr>
+        <tr class="wave4"><td>4</td><td>TZ-19</td><td>AUTO-024</td><td>1</td><td>28 ч/мес</td></tr>
+        <tr class="wave4"><td>4</td><td>TZ-20</td><td>AUTO-030, 042</td><td>2</td><td>20 ч/мес</td></tr>
+        <tr class="wave4"><td>4</td><td>TZ-21</td><td>AUTO-046</td><td>1</td><td>17 ч/мес</td></tr>
+        <tr class="wave4"><td>4</td><td>TZ-23</td><td>DASH-15</td><td>1</td><td>7 ч/мес</td></tr>
+        <tr style="font-weight: bold; background: #2c5282; color: white;">
+            <td colspan="2">ИТОГО</td>
+            <td>62 точки</td>
+            <td>62</td>
+            <td>1 358 ч/мес</td>
+        </tr>
+    </table>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true
+            }
+        });
+    </script>
+</body>
+</html>
