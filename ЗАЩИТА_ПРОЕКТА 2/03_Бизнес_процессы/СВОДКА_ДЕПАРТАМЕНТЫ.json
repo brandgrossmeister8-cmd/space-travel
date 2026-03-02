@@ -1,0 +1,541 @@
+{
+  "metadata": {
+    "title": "Сводка по 9 департаментам Space Travel",
+    "version": "1.2",
+    "date": "2026-03-01",
+    "company": "Space Travel",
+    "total_staff": 198,
+    "total_business_processes": 8,
+    "total_automation_points": 62,
+    "total_technical_specifications": 23,
+    "total_savings_hours_month": 1401,
+    "total_savings_rub_year": 10003140
+  },
+  "summary": [
+    {
+      "id": "L1-01",
+      "name": "Агентства",
+      "director": "Мурадян О.Ю.",
+      "staff": 28,
+      "owns_bp": null,
+      "participates_in": ["BP-01", "BP-02"],
+      "receives_from": ["BP-06", "BP-07", "BP-08"],
+      "savings_hours_month": 92,
+      "automation_points": ["AUTO-035", "AUTO-043", "AUTO-044", "AUTO-046"],
+      "related_tz": ["TZ-01", "TZ-21"]
+    },
+    {
+      "id": "L1-02",
+      "name": "Операционные доходы",
+      "director": "Баландина О.А.",
+      "staff": 22,
+      "owns_bp": "BP-05",
+      "participates_in": ["BP-01", "BP-02"],
+      "receives_from": ["BP-06", "BP-07", "BP-08"],
+      "savings_hours_month": 183,
+      "automation_points": ["AUTO-003", "AUTO-015", "AUTO-016", "AUTO-017", "AUTO-018", "AUTO-034"],
+      "related_tz": ["TZ-03", "TZ-11", "TZ-13", "TZ-17"]
+    },
+    {
+      "id": "L1-03",
+      "name": "MICE и корп. обслуживание",
+      "director": "Питуркин С.А.",
+      "staff": 10,
+      "owns_bp": "BP-03",
+      "participates_in": [],
+      "receives_from": ["BP-06", "BP-07", "BP-08"],
+      "savings_hours_month": 96,
+      "automation_points": ["AUTO-004", "AUTO-013", "AUTO-027", "AUTO-028", "AUTO-029"],
+      "related_tz": ["TZ-02", "TZ-06", "TZ-07", "TZ-15"]
+    },
+    {
+      "id": "L1-04",
+      "name": "HR",
+      "director": "Жигалина Ю.А.",
+      "staff": 5,
+      "owns_bp": "BP-07",
+      "participates_in": [],
+      "receives_from": ["BP-06", "BP-08"],
+      "savings_hours_month": 44,
+      "automation_points": ["AUTO-023", "AUTO-037", "AUTO-038"],
+      "related_tz": ["TZ-18"]
+    },
+    {
+      "id": "L1-05",
+      "name": "Операционный",
+      "director": "Преображенская Т.В.",
+      "staff": 72,
+      "owns_bp": "BP-01",
+      "participates_in": ["BP-02", "BP-03", "BP-04", "BP-05"],
+      "receives_from": ["BP-06", "BP-07", "BP-08"],
+      "savings_hours_month": 342,
+      "automation_points": ["AUTO-001", "AUTO-002", "AUTO-005", "AUTO-009", "AUTO-010", "AUTO-019", "AUTO-020", "AUTO-021", "AUTO-033", "AUTO-040", "AUTO-041", "AUTO-045"],
+      "related_tz": ["TZ-02", "TZ-04", "TZ-09", "TZ-10", "TZ-12", "TZ-14"]
+    },
+    {
+      "id": "L1-06",
+      "name": "Клиентский сервис",
+      "director": "Акопова А.В.",
+      "staff": 16,
+      "owns_bp": "BP-06",
+      "participates_in": ["BP-01", "BP-05"],
+      "receives_from": ["BP-07", "BP-08"],
+      "savings_hours_month": 114,
+      "automation_points": ["AUTO-007", "AUTO-008", "AUTO-024", "AUTO-036", "AUTO-039"],
+      "related_tz": ["TZ-01", "TZ-02", "TZ-15", "TZ-19"]
+    },
+    {
+      "id": "L1-07",
+      "name": "IT",
+      "director": "Логвинов Г.А.",
+      "staff": 6,
+      "owns_bp": "BP-08",
+      "participates_in": ["BP-04", "BP-05", "BP-06"],
+      "receives_from": ["BP-07"],
+      "savings_hours_month": 75,
+      "automation_points": ["AUTO-007", "AUTO-008", "AUTO-042", "DASH-15"],
+      "related_tz": ["TZ-15", "TZ-20", "TZ-23"]
+    },
+    {
+      "id": "L1-08",
+      "name": "Финансы",
+      "director": "Назарикова М.В.",
+      "staff": 19,
+      "owns_bp": "BP-04",
+      "participates_in": ["BP-01", "BP-02", "BP-03", "BP-05"],
+      "receives_from": ["BP-06", "BP-07", "BP-08"],
+      "savings_hours_month": 344,
+      "automation_points": ["AUTO-005", "AUTO-006", "AUTO-014", "AUTO-031", "AUTO-032", "DASH-01", "DASH-03", "DASH-04", "DASH-07", "DASH-08"],
+      "related_tz": ["TZ-07", "TZ-08", "TZ-12"]
+    },
+    {
+      "id": "L1-09",
+      "name": "Маркетинг",
+      "director": "ВАКАНСИЯ",
+      "staff": 15,
+      "owns_bp": "BP-02",
+      "participates_in": ["BP-04", "BP-05"],
+      "receives_from": ["BP-07", "BP-08"],
+      "savings_hours_month": 111,
+      "automation_points": ["AUTO-011", "AUTO-012", "AUTO-026", "AUTO-048", "DASH-06"],
+      "related_tz": ["TZ-05", "TZ-06", "TZ-07", "TZ-16"]
+    }
+  ],
+  "departments_detailed": {
+    "L1-01": {
+      "id": "L1-01",
+      "name": "Агентства",
+      "director": "Мурадян О.Ю.",
+      "staff": 28,
+      "category": "Генератор выручки",
+      "owns_bp": null,
+      "owns_bp_note": "Агентская сеть — канал продаж, интегрированный в BP-01",
+      "participates_in": [
+        {"bp": "BP-01", "role": "●", "description": "Канал заявок через агентский кабинет"},
+        {"bp": "BP-02", "role": "●", "description": "КАМы набирают агентов на маркетинговые мероприятия"}
+      ],
+      "receives_from": [
+        {"bp": "BP-06", "description": "Получает маршрутизацию обращений на КАМов"},
+        {"bp": "BP-07", "description": "Получает услуги обучения и адаптации"},
+        {"bp": "BP-08", "description": "Получает IT-поддержку"}
+      ],
+      "automation": {
+        "points": [
+          {"id": "AUTO-035", "name": "Синхронизация данных агентов САМО ↔ Битрикс24", "tz": "TZ-01", "savings": 18},
+          {"id": "AUTO-043", "name": "Уведомления агентам о статусе заявок", "tz": "TZ-01", "savings": 40},
+          {"id": "AUTO-044", "name": "Контроль кредитных лимитов агентов", "tz": "TZ-01", "savings": 17},
+          {"id": "AUTO-046", "name": "Интеграция с системой франчайзи U-ON.Travel", "tz": "TZ-21", "savings": 17}
+        ],
+        "total_points": 4,
+        "related_tz": [
+          {"id": "TZ-01", "name": "САМО ↔ Битрикс24 интеграция", "wave": 1},
+          {"id": "TZ-21", "name": "Франчайзинг", "wave": 4}
+        ]
+      },
+      "savings": {"hours_month": 92, "rub_month": 65688, "rub_year": 788256},
+      "critical_risks": []
+    },
+    "L1-02": {
+      "id": "L1-02",
+      "name": "Операционные доходы",
+      "director": "Баландина О.А.",
+      "staff": 22,
+      "category": "Генератор выручки",
+      "owns_bp": "BP-05",
+      "owns_bp_name": "Формирование турпродукта",
+      "participates_in": [
+        {"bp": "BP-01", "role": "●", "description": "Консультации продуктологов для сложных запросов"},
+        {"bp": "BP-02", "role": "●", "description": "Предоставление информации о направлениях для кампаний"}
+      ],
+      "receives_from": [
+        {"bp": "BP-06", "description": "Получает ошибки на сайте для исправления в тарификации"},
+        {"bp": "BP-07", "description": "Получает обучение тарификаторов и продуктологов"},
+        {"bp": "BP-08", "description": "Получает IT-поддержку (САМО-тур, публикация)"}
+      ],
+      "automation": {
+        "points": [
+          {"id": "AUTO-003", "name": "Динамическое ценообразование чартеров (ML)", "tz": "TZ-13", "savings": 55},
+          {"id": "AUTO-015", "name": "Матчинг гостиниц от разных поставщиков", "tz": "TZ-17", "savings": 50},
+          {"id": "AUTO-016", "name": "Автоудаление туров без конверсии", "tz": "TZ-03", "savings": 18},
+          {"id": "AUTO-017", "name": "Уведомления об истечении цен", "tz": "TZ-03", "savings": 15},
+          {"id": "AUTO-018", "name": "Парсинг цен конкурентов", "tz": "TZ-11", "savings": 28},
+          {"id": "AUTO-034", "name": "Проверка цен на аномалии", "tz": "TZ-03", "savings": 17}
+        ],
+        "total_points": 6,
+        "related_tz": [
+          {"id": "TZ-03", "name": "САМО алерты", "wave": 1},
+          {"id": "TZ-11", "name": "Парсинг цен конкурентов", "wave": 2},
+          {"id": "TZ-13", "name": "Динамическое ценообразование", "wave": 3},
+          {"id": "TZ-17", "name": "Матчинг гостиниц", "wave": 4}
+        ]
+      },
+      "savings": {"hours_month": 183, "rub_month": 130614, "rub_year": 1567368},
+      "critical_risks": [
+        "Группа тарификации — узкое место (5 человек на ВСЕ цены компании)",
+        "Ручное ценообразование чартеров"
+      ]
+    },
+    "L1-03": {
+      "id": "L1-03",
+      "name": "MICE и корп. обслуживание",
+      "director": "Питуркин С.А.",
+      "staff": 10,
+      "category": "Генератор выручки",
+      "owns_bp": "BP-03",
+      "owns_bp_name": "MICE и корп. обслуживание",
+      "participates_in": [],
+      "receives_from": [
+        {"bp": "BP-06", "description": "Получает услуги 24/7 поддержки для MICE-клиентов"},
+        {"bp": "BP-07", "description": "Получает обучение MICE-менеджеров"},
+        {"bp": "BP-08", "description": "Получает IT-поддержку (ETM, интеграции)"}
+      ],
+      "automation": {
+        "points": [
+          {"id": "AUTO-004", "name": "Чат-бот для MICE-клиентов 24/7", "tz": "TZ-15", "savings": 20},
+          {"id": "AUTO-013", "name": "Конфигуратор смет MICE", "tz": "TZ-02", "savings": 33},
+          {"id": "AUTO-027", "name": "Шаблоны проектов мероприятий", "tz": "TZ-02", "savings": 17},
+          {"id": "AUTO-028", "name": "Триггерные напоминания участникам", "tz": "TZ-06", "savings": 9},
+          {"id": "AUTO-029", "name": "Дашборд MICE-сегмента", "tz": "TZ-07", "savings": 17}
+        ],
+        "total_points": 5,
+        "related_tz": [
+          {"id": "TZ-02", "name": "Шаблоны (сметы, КП)", "wave": 1},
+          {"id": "TZ-06", "name": "Email-рассылки из САМО", "wave": 1},
+          {"id": "TZ-07", "name": "BI Power BI", "wave": 1},
+          {"id": "TZ-15", "name": "AI-помощники (чат-боты)", "wave": 4}
+        ]
+      },
+      "savings": {"hours_month": 96, "rub_month": 68544, "rub_year": 822528},
+      "critical_risks": []
+    },
+    "L1-04": {
+      "id": "L1-04",
+      "name": "HR",
+      "director": "Жигалина Ю.А.",
+      "staff": 5,
+      "category": "Обеспечивающая функция",
+      "owns_bp": "BP-07",
+      "owns_bp_name": "Управление персоналом (HR)",
+      "participates_in": [],
+      "receives_from": [
+        {"bp": "BP-06", "description": "Получает данные качества звонков (AUTO-SUP-03 → AUTO-HR-03) для планирования обучения"},
+        {"bp": "BP-08", "description": "Получает IT-услуги (создание/деактивация УЗ)"}
+      ],
+      "automation": {
+        "points": [
+          {"id": "AUTO-023", "name": "Единый календарь отсутствий", "tz": "TZ-18", "savings": 13},
+          {"id": "AUTO-037", "name": "Опросы вовлечённости сотрудников", "tz": "TZ-18", "savings": 7},
+          {"id": "AUTO-038", "name": "LMS-система учёта обучения", "tz": "TZ-18", "savings": 11}
+        ],
+        "total_points": 3,
+        "related_tz": [
+          {"id": "TZ-18", "name": "HR-платформа", "wave": 4}
+        ]
+      },
+      "savings": {"hours_month": 44, "rub_month": 31416, "rub_year": 376992},
+      "critical_risks": [],
+      "note": "HR — самый «изолированный» департамент. Владеет только BP-07, не участвует активно в других процессах, но влияет на все через качество персонала."
+    },
+    "L1-05": {
+      "id": "L1-05",
+      "name": "Операционный",
+      "director": "Преображенская Т.В.",
+      "staff": 72,
+      "category": "Генератор выручки",
+      "owns_bp": "BP-01",
+      "owns_bp_name": "Обработка заявки (Lead-to-Cash)",
+      "participates_in": [
+        {"bp": "BP-02", "role": "●", "description": "Региональные офисы участвуют в маркетинговых мероприятиях"},
+        {"bp": "BP-03", "role": "●", "description": "Транспортный отдел обеспечивает групповые перелёты"},
+        {"bp": "BP-04", "role": "●", "description": "Все отделы направляют счета в Invoice Tracker"},
+        {"bp": "BP-05", "role": "●", "description": "Региональные офисы дают обратную связь по продукту"}
+      ],
+      "receives_from": [
+        {"bp": "BP-06", "description": "Получает маршрутизацию заявок (28 направлений)"},
+        {"bp": "BP-07", "description": "Получает обучение менеджеров"},
+        {"bp": "BP-08", "description": "Основной пользователь САМО-тур, Битрикс24"}
+      ],
+      "automation": {
+        "points": [
+          {"id": "AUTO-001", "name": "Контроль тайм-лимитов авиабилетов", "tz": "TZ-09", "savings": 40},
+          {"id": "AUTO-002", "name": "Чек-лист документов по заявке", "tz": "TZ-10", "savings": 28},
+          {"id": "AUTO-005", "name": "Интеграция GDS → 1С", "tz": "TZ-12", "savings": 81},
+          {"id": "AUTO-009", "name": "Автоматическая маршрутизация заявок", "tz": "TZ-04", "savings": 73},
+          {"id": "AUTO-010", "name": "Сверка данных САМО ↔ GDS", "tz": "TZ-14", "savings": 18},
+          {"id": "AUTO-019", "name": "NDC-интеграция с FlyDubai", "tz": "TZ-14", "savings": 18},
+          {"id": "AUTO-020", "name": "Синхронизация с Уральскими авиалиниями", "tz": "TZ-14", "savings": 13},
+          {"id": "AUTO-021", "name": "Определение региона по номеру телефона", "tz": "TZ-04", "savings": 9},
+          {"id": "AUTO-033", "name": "Создание задач из входящих писем", "tz": "TZ-04", "savings": 13},
+          {"id": "AUTO-040", "name": "Определение федерального округа", "tz": "TZ-04", "savings": 5},
+          {"id": "AUTO-041", "name": "Маршруты согласования в Битрикс24", "tz": "TZ-04", "savings": 11},
+          {"id": "AUTO-045", "name": "Расширенная маршрутизация 28 направлений", "tz": "TZ-04", "savings": 25}
+        ],
+        "total_points": 12,
+        "related_tz": [
+          {"id": "TZ-02", "name": "Шаблоны (сметы, КП)", "wave": 1},
+          {"id": "TZ-04", "name": "Workflow Битрикс24", "wave": 1},
+          {"id": "TZ-09", "name": "Тайм-лимиты авиа", "wave": 2},
+          {"id": "TZ-10", "name": "Контроль документов", "wave": 2},
+          {"id": "TZ-12", "name": "GDS → 1С интеграция", "wave": 3},
+          {"id": "TZ-14", "name": "Интеграции с авиакомпаниями", "wave": 4}
+        ]
+      },
+      "savings": {"hours_month": 342, "rub_month": 244188, "rub_year": 2930256},
+      "critical_risks": [
+        "Просроченные тайм-лимиты билетов (~15%)",
+        "28 направлений маршрутизации вручную"
+      ],
+      "note": "Операционный департамент — ядро бизнеса (85% выручки)"
+    },
+    "L1-06": {
+      "id": "L1-06",
+      "name": "Клиентский сервис",
+      "director": "Акопова А.В.",
+      "staff": 16,
+      "category": "Усилитель выручки",
+      "owns_bp": "BP-06",
+      "owns_bp_name": "Клиентская поддержка",
+      "participates_in": [
+        {"bp": "BP-01", "role": "●", "description": "Маршрутизация заявок на вход, 24/7 поддержка туристов в поездке"},
+        {"bp": "BP-05", "role": "●", "description": "Ошибки на сайте передаются в IT/тарификацию"}
+      ],
+      "receives_from": [
+        {"bp": "BP-07", "description": "Данные качества звонков → HR для обучения"},
+        {"bp": "BP-08", "description": "Получает IT-поддержку (телефония, CRM)"}
+      ],
+      "automation": {
+        "points": [
+          {"id": "AUTO-007", "name": "Чат-бот для IT/клиентской поддержки", "tz": "TZ-15", "savings": 44},
+          {"id": "AUTO-008", "name": "Единый портал инструкций и FAQ", "tz": "TZ-15", "savings": 17},
+          {"id": "AUTO-024", "name": "Интеграция мессенджеров с CRM", "tz": "TZ-19", "savings": 28},
+          {"id": "AUTO-036", "name": "Библиотека готовых ответов", "tz": "TZ-02", "savings": 7},
+          {"id": "AUTO-039", "name": "Автоотправка документов после оплаты", "tz": "TZ-01", "savings": 18}
+        ],
+        "total_points": 5,
+        "related_tz": [
+          {"id": "TZ-01", "name": "САМО ↔ Битрикс24 интеграция", "wave": 1},
+          {"id": "TZ-02", "name": "Шаблоны (сметы, КП)", "wave": 1},
+          {"id": "TZ-15", "name": "AI-помощники (чат-боты)", "wave": 4},
+          {"id": "TZ-19", "name": "Мессенджеры → CRM", "wave": 4}
+        ]
+      },
+      "savings": {"hours_month": 114, "rub_month": 81396, "rub_year": 976752},
+      "critical_risks": []
+    },
+    "L1-07": {
+      "id": "L1-07",
+      "name": "IT",
+      "director": "Логвинов Г.А.",
+      "staff": 6,
+      "category": "Обеспечивающая функция",
+      "owns_bp": "BP-08",
+      "owns_bp_name": "IT-обеспечение",
+      "participates_in": [
+        {"bp": "BP-04", "role": "●", "description": "Скрипт автоматического разнесения платежей"},
+        {"bp": "BP-05", "role": "●", "description": "Технические ошибки, публикация на сайте"},
+        {"bp": "BP-06", "role": "●", "description": "Обеспечивает работу телефонии, CRM"}
+      ],
+      "receives_from": [
+        {"bp": "BP-07", "description": "Создание/деактивация учётных записей по заявкам HR"}
+      ],
+      "automation": {
+        "points": [
+          {"id": "AUTO-007", "name": "Чат-бот для IT-поддержки", "tz": "TZ-15", "savings": 44},
+          {"id": "AUTO-008", "name": "Единый портал инструкций", "tz": "TZ-15", "savings": 17},
+          {"id": "AUTO-042", "name": "Шаблоны интеграций с DMC-партнёрами", "tz": "TZ-20", "savings": 7},
+          {"id": "DASH-15", "name": "Дашборд IT-мониторинга", "tz": "TZ-23", "savings": 7}
+        ],
+        "total_points": 4,
+        "related_tz": [
+          {"id": "TZ-15", "name": "AI-помощники (чат-боты)", "wave": 4},
+          {"id": "TZ-20", "name": "Тендеры и DMC-партнёры", "wave": 4},
+          {"id": "TZ-23", "name": "IT-мониторинг", "wave": 4}
+        ]
+      },
+      "savings": {"hours_month": 75, "rub_month": 53550, "rub_year": 642600},
+      "critical_risks": ["IT — очередь задач, медленное развитие"],
+      "note": "IT — единственный департамент, активно участвующий в BP-06 помимо владельца"
+    },
+    "L1-08": {
+      "id": "L1-08",
+      "name": "Финансы",
+      "director": "Назарикова М.В.",
+      "staff": 19,
+      "category": "Обеспечивающая функция",
+      "owns_bp": "BP-04",
+      "owns_bp_name": "Финансовый цикл",
+      "participates_in": [
+        {"bp": "BP-01", "role": "●", "description": "Оплата заявок, счета, контроль дебиторки"},
+        {"bp": "BP-02", "role": "●", "description": "Счета маркетинговым партнёрам, оплата подрядчиков"},
+        {"bp": "BP-03", "role": "●", "description": "Счета корп. клиентам, закрывающие документы"},
+        {"bp": "BP-05", "role": "●", "description": "Данные о прибыли по направлениям для анализа"}
+      ],
+      "receives_from": [
+        {"bp": "BP-06", "description": "Получает заявления на перенос/возврат"},
+        {"bp": "BP-07", "description": "ФОТ, бонусы"},
+        {"bp": "BP-08", "description": "Получает IT-поддержку (1С, банк-клиент)"}
+      ],
+      "automation": {
+        "points": [
+          {"id": "AUTO-005", "name": "Интеграция GDS → 1С (учёт авиабилетов)", "tz": "TZ-12", "savings": 81},
+          {"id": "AUTO-006", "name": "Перенос Invoice Tracker в Power BI", "tz": "TZ-07", "savings": 26},
+          {"id": "AUTO-014", "name": "Платёжный календарь из 1С", "tz": "TZ-08", "savings": 22},
+          {"id": "AUTO-031", "name": "Автоматический P&L дашборд", "tz": "TZ-07", "savings": 55},
+          {"id": "AUTO-032", "name": "Авторазнесение платежей по статьям", "tz": "TZ-08", "savings": 26},
+          {"id": "DASH-01", "name": "Дашборд P&L", "tz": "TZ-07", "savings": 55},
+          {"id": "DASH-03", "name": "Дашборд счетов на оплату", "tz": "TZ-07", "savings": 26},
+          {"id": "DASH-04", "name": "Дашборд воронки продаж", "tz": "TZ-07", "savings": 18},
+          {"id": "DASH-07", "name": "Дашборд Cash Flow", "tz": "TZ-08", "savings": 22},
+          {"id": "DASH-08", "name": "Дашборд задолженностей", "tz": "TZ-07", "savings": 13}
+        ],
+        "total_points": 10,
+        "related_tz": [
+          {"id": "TZ-07", "name": "BI Power BI", "wave": 1},
+          {"id": "TZ-08", "name": "Cash Flow", "wave": 1},
+          {"id": "TZ-12", "name": "GDS → 1С интеграция", "wave": 3}
+        ]
+      },
+      "savings": {"hours_month": 344, "rub_month": 245608, "rub_year": 2947296},
+      "critical_risks": ["Invoice Tracker на Google Таблицах — сбои при работе"],
+      "note": "Финансы — «кровеносная система» компании"
+    },
+    "L1-09": {
+      "id": "L1-09",
+      "name": "Маркетинг",
+      "director": "ВАКАНСИЯ",
+      "staff": 15,
+      "category": "Усилитель выручки",
+      "owns_bp": "BP-02",
+      "owns_bp_name": "Маркетинговая кампания",
+      "participates_in": [
+        {"bp": "BP-04", "role": "●", "description": "Маркетинговые расходы, контроль бюджетов"},
+        {"bp": "BP-05", "role": "●", "description": "Продвижение новых продуктов и направлений"}
+      ],
+      "receives_from": [
+        {"bp": "BP-07", "description": "Получает обучение маркетологов"},
+        {"bp": "BP-08", "description": "Получает IT-поддержку (сайт, RoiStat, CRM)"}
+      ],
+      "automation": {
+        "points": [
+          {"id": "AUTO-011", "name": "Интеграция цен САМО → email-рассылки", "tz": "TZ-06", "savings": 28},
+          {"id": "AUTO-012", "name": "Сквозная аналитика RoiStat", "tz": "TZ-16", "savings": 33},
+          {"id": "AUTO-026", "name": "ИИ-генерация баннеров (Midjourney)", "tz": "TZ-05", "savings": 17},
+          {"id": "AUTO-048", "name": "Автооптимизация рекламных кампаний", "tz": "TZ-05", "savings": 22},
+          {"id": "DASH-06", "name": "Дашборд маркетинговой аналитики", "tz": "TZ-16", "savings": 33}
+        ],
+        "total_points": 5,
+        "related_tz": [
+          {"id": "TZ-05", "name": "ИИ-контент", "wave": 1},
+          {"id": "TZ-06", "name": "Email-рассылки из САМО", "wave": 1},
+          {"id": "TZ-07", "name": "BI Power BI", "wave": 1},
+          {"id": "TZ-16", "name": "Сквозная аналитика RoiStat", "wave": 4}
+        ]
+      },
+      "savings": {"hours_month": 111, "rub_month": 79254, "rub_year": 951048},
+      "critical_risks": ["Вакансия директора — нет единой стратегии"],
+      "coverage_gap": "L1-09-G4 (10% прямых продаж через сайт) — требует отдельного проекта E-commerce"
+    }
+  },
+  "business_processes": [
+    {"id": "BP-01", "name": "Обработка заявки (Lead-to-Cash)", "type": "Основной", "owner_id": "L1-05", "owner_name": "Преображенская Т.В.", "participants_count": 4, "recipients_count": 1},
+    {"id": "BP-02", "name": "Маркетинговая кампания", "type": "Основной", "owner_id": "L1-09", "owner_name": "ВАКАНСИЯ", "participants_count": 4, "recipients_count": 1},
+    {"id": "BP-03", "name": "MICE и корп. обслуживание", "type": "Основной", "owner_id": "L1-03", "owner_name": "Питуркин С.А.", "participants_count": 2, "recipients_count": 1},
+    {"id": "BP-04", "name": "Финансовый цикл", "type": "Основной", "owner_id": "L1-08", "owner_name": "Назарикова М.В.", "participants_count": 3, "recipients_count": 1},
+    {"id": "BP-05", "name": "Формирование турпродукта", "type": "Основной", "owner_id": "L1-02", "owner_name": "Баландина О.А.", "participants_count": 5, "recipients_count": 1},
+    {"id": "BP-06", "name": "Клиентская поддержка", "type": "Основной", "owner_id": "L1-06", "owner_name": "Акопова А.В.", "participants_count": 1, "recipients_count": 6, "note": "Процесс-«хаб»: мало участников (только IT), но много получателей услуг"},
+    {"id": "BP-07", "name": "Управление персоналом (HR)", "type": "Поддерживающий", "owner_id": "L1-04", "owner_name": "Жигалина Ю.А.", "participants_count": 0, "recipients_count": 8},
+    {"id": "BP-08", "name": "IT-обеспечение", "type": "Поддерживающий", "owner_id": "L1-07", "owner_name": "Логвинов Г.А.", "participants_count": 0, "recipients_count": 8}
+  ],
+  "technical_specifications": [
+    {"id": "TZ-01", "name": "САМО ↔ Битрикс24 интеграция", "wave": 1, "hours": 220, "cost_rub": 660000, "departments": ["L1-01", "L1-06"]},
+    {"id": "TZ-02", "name": "Шаблоны (сметы, КП)", "wave": 1, "hours": 144, "cost_rub": 432000, "departments": ["L1-03", "L1-05", "L1-06"]},
+    {"id": "TZ-03", "name": "САМО алерты", "wave": 1, "hours": 66, "cost_rub": 198000, "departments": ["L1-02"]},
+    {"id": "TZ-04", "name": "Workflow Битрикс24", "wave": 1, "hours": 224, "cost_rub": 672000, "departments": ["L1-05"]},
+    {"id": "TZ-05", "name": "ИИ-контент", "wave": 1, "hours": 92, "cost_rub": 276000, "departments": ["L1-09"]},
+    {"id": "TZ-06", "name": "Email-рассылки из САМО", "wave": 1, "hours": 136, "cost_rub": 408000, "departments": ["L1-03", "L1-09"]},
+    {"id": "TZ-07", "name": "BI Power BI", "wave": 1, "hours": 620, "cost_rub": 1860000, "departments": ["L1-03", "L1-08", "L1-09"]},
+    {"id": "TZ-08", "name": "Cash Flow", "wave": 1, "hours": 176, "cost_rub": 528000, "departments": ["L1-08"]},
+    {"id": "TZ-09", "name": "Тайм-лимиты авиа", "wave": 2, "hours": 167, "cost_rub": 501000, "departments": ["L1-05"]},
+    {"id": "TZ-10", "name": "Контроль документов", "wave": 2, "hours": 133, "cost_rub": 399000, "departments": ["L1-05"]},
+    {"id": "TZ-11", "name": "Парсинг цен конкурентов", "wave": 2, "hours": 150, "cost_rub": 450000, "departments": ["L1-02"]},
+    {"id": "TZ-12", "name": "GDS → 1С интеграция", "wave": 3, "hours": 1667, "cost_rub": 5001000, "departments": ["L1-05", "L1-08"]},
+    {"id": "TZ-13", "name": "Динамическое ценообразование", "wave": 3, "hours": 2000, "cost_rub": 6000000, "departments": ["L1-02"]},
+    {"id": "TZ-14", "name": "Интеграции с авиакомпаниями", "wave": 4, "hours": 340, "cost_rub": 1020000, "departments": ["L1-05"]},
+    {"id": "TZ-15", "name": "AI-помощники (чат-боты)", "wave": 4, "hours": 540, "cost_rub": 1620000, "departments": ["L1-03", "L1-06", "L1-07"]},
+    {"id": "TZ-16", "name": "Сквозная аналитика RoiStat", "wave": 4, "hours": 220, "cost_rub": 660000, "departments": ["L1-09"]},
+    {"id": "TZ-17", "name": "Матчинг гостиниц", "wave": 4, "hours": 440, "cost_rub": 1320000, "departments": ["L1-02"]},
+    {"id": "TZ-18", "name": "HR-платформа", "wave": 4, "hours": 420, "cost_rub": 1260000, "departments": ["L1-04"]},
+    {"id": "TZ-19", "name": "Мессенджеры → CRM", "wave": 4, "hours": 240, "cost_rub": 720000, "departments": ["L1-06"]},
+    {"id": "TZ-20", "name": "Тендеры и DMC-партнёры", "wave": 4, "hours": 220, "cost_rub": 660000, "departments": ["L1-07"]},
+    {"id": "TZ-21", "name": "Франчайзинг", "wave": 4, "hours": 220, "cost_rub": 660000, "departments": ["L1-01"]},
+    {"id": "TZ-22", "name": "Регуляторный контроль", "wave": 2, "hours": 150, "cost_rub": 450000, "departments": ["L1-05"]},
+    {"id": "TZ-23", "name": "IT-мониторинг", "wave": 4, "hours": 125, "cost_rub": 375000, "departments": ["L1-07"]}
+  ],
+  "statistics": {
+    "by_department_activity": [
+      {"id": "L1-05", "name": "Операционный", "owns": 1, "participates": 4, "receives": 3, "active_participation": 5, "auto_points": 12},
+      {"id": "L1-08", "name": "Финансы", "owns": 1, "participates": 4, "receives": 3, "active_participation": 5, "auto_points": 10},
+      {"id": "L1-07", "name": "IT", "owns": 1, "participates": 3, "receives": 1, "active_participation": 4, "auto_points": 4},
+      {"id": "L1-02", "name": "Опер. доходы", "owns": 1, "participates": 2, "receives": 3, "active_participation": 3, "auto_points": 6},
+      {"id": "L1-06", "name": "Клиент. сервис", "owns": 1, "participates": 2, "receives": 2, "active_participation": 3, "auto_points": 5},
+      {"id": "L1-09", "name": "Маркетинг", "owns": 1, "participates": 2, "receives": 2, "active_participation": 3, "auto_points": 5},
+      {"id": "L1-03", "name": "MICE", "owns": 1, "participates": 0, "receives": 3, "active_participation": 1, "auto_points": 5},
+      {"id": "L1-01", "name": "Агентства", "owns": 0, "participates": 2, "receives": 3, "active_participation": 2, "auto_points": 4},
+      {"id": "L1-04", "name": "HR", "owns": 1, "participates": 0, "receives": 2, "active_participation": 1, "auto_points": 3}
+    ],
+    "by_process_engagement": [
+      {"id": "BP-05", "name": "Продукт", "owner": "L1-02", "participants": 5, "recipients": 1},
+      {"id": "BP-01", "name": "Lead-to-Cash", "owner": "L1-05", "participants": 4, "recipients": 1},
+      {"id": "BP-02", "name": "Маркетинг", "owner": "L1-09", "participants": 4, "recipients": 1},
+      {"id": "BP-04", "name": "Финансы", "owner": "L1-08", "participants": 3, "recipients": 1},
+      {"id": "BP-03", "name": "MICE", "owner": "L1-03", "participants": 2, "recipients": 1},
+      {"id": "BP-06", "name": "Клиент. поддержка", "owner": "L1-06", "participants": 1, "recipients": 6},
+      {"id": "BP-07", "name": "HR", "owner": "L1-04", "participants": 0, "recipients": 8},
+      {"id": "BP-08", "name": "IT", "owner": "L1-07", "participants": 0, "recipients": 8}
+    ],
+    "categories": {
+      "revenue_generators": ["L1-01", "L1-02", "L1-03", "L1-05"],
+      "revenue_amplifiers": ["L1-06", "L1-09"],
+      "supporting_functions": ["L1-04", "L1-07", "L1-08"]
+    }
+  },
+  "matrix": {
+    "legend": {
+      "◆": "Владелец процесса — отвечает за процесс, сотрудники выполняют основные действия",
+      "●": "Активный участник — сотрудники выполняют конкретные действия В РАМКАХ процесса",
+      "○": "Получатель услуг/данных — получает услуги ОТ процесса или данные из него",
+      "—": "Не участвует — нет прямой связи с процессом"
+    },
+    "data": {
+      "L1-01": {"BP-01": "●", "BP-02": "●", "BP-03": "—", "BP-04": "—", "BP-05": "—", "BP-06": "○", "BP-07": "○", "BP-08": "○"},
+      "L1-02": {"BP-01": "●", "BP-02": "●", "BP-03": "—", "BP-04": "—", "BP-05": "◆", "BP-06": "○", "BP-07": "○", "BP-08": "○"},
+      "L1-03": {"BP-01": "—", "BP-02": "—", "BP-03": "◆", "BP-04": "—", "BP-05": "—", "BP-06": "○", "BP-07": "○", "BP-08": "○"},
+      "L1-04": {"BP-01": "—", "BP-02": "—", "BP-03": "—", "BP-04": "—", "BP-05": "—", "BP-06": "○", "BP-07": "◆", "BP-08": "○"},
+      "L1-05": {"BP-01": "◆", "BP-02": "●", "BP-03": "●", "BP-04": "●", "BP-05": "●", "BP-06": "○", "BP-07": "○", "BP-08": "○"},
+      "L1-06": {"BP-01": "●", "BP-02": "—", "BP-03": "—", "BP-04": "—", "BP-05": "●", "BP-06": "◆", "BP-07": "○", "BP-08": "○"},
+      "L1-07": {"BP-01": "—", "BP-02": "—", "BP-03": "—", "BP-04": "●", "BP-05": "●", "BP-06": "●", "BP-07": "○", "BP-08": "◆"},
+      "L1-08": {"BP-01": "●", "BP-02": "●", "BP-03": "●", "BP-04": "◆", "BP-05": "●", "BP-06": "○", "BP-07": "○", "BP-08": "○"},
+      "L1-09": {"BP-01": "—", "BP-02": "◆", "BP-03": "—", "BP-04": "●", "BP-05": "●", "BP-06": "—", "BP-07": "○", "BP-08": "○"}
+    }
+  }
+}
